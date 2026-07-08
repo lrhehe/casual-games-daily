@@ -5,6 +5,9 @@
 """
 import json, re, sys, os
 from datetime import datetime, timedelta, timezone
+import pytz
+
+TZ = pytz.timezone("Asia/Shanghai")
 from pathlib import Path
 from collections import defaultdict
 import requests
@@ -126,7 +129,7 @@ def fetch_itunes_details(games):
                 rd = r.get("releaseDate", "")
                 if rd:
                     release_dt = datetime.fromisoformat(rd.replace("Z", "+00:00"))
-                    days_ago = (datetime.now(timezone.utc) - release_dt).days
+                    days_ago = (datetime.now(TZ) - release_dt.replace(tzinfo=None)).days
                     game["daysSinceRelease"] = max(days_ago, 1)
                     game["dailyReviews"] = game["ratingCount"] // game["daysSinceRelease"]
         except Exception as e:
@@ -585,8 +588,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",s
 
 def generate_report_html(selected_games, today_str, trend_text=""):
     """生成完整 HTML 报告"""
-    date_display = datetime.now().strftime("%Y年%m月%d日 %A")
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M UTC")
+    date_display = datetime.now(TZ).strftime("%Y年%m月%d日 %A")
+    timestamp = datetime.now(TZ).strftime("%Y-%m-%d %H:%M UTC")
     
     cards = "\n".join(generate_game_card(g, i) for i, g in enumerate(selected_games[:3]))
     
@@ -619,7 +622,7 @@ def generate_report_html(selected_games, today_str, trend_text=""):
 
 def update_index(selected_games, today_str):
     """更新首页，添加新报告链接"""
-    badge = datetime.now().strftime("%m月%d日")
+    badge = datetime.now(TZ).strftime("%m月%d日")
     preview = " · ".join([g.get("name", "?") for g in selected_games[:3]])
     
     entry = f'<a class="report-link" href="reports/{today_str}.html"><span class="date-badge">{badge}</span><span class="preview">{preview}</span><span class="arrow">→</span></a>'
@@ -660,7 +663,7 @@ def generate_trend(selected_games):
 # ── Main ────────────────────────────────────────────────
 
 def main():
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = datetime.now(TZ).strftime("%Y-%m-%d")
     print(f"\n{'='*60}")
     print(f"  🎮 每日休闲游戏精选 — {today_str}")
     print(f"{'='*60}\n")
