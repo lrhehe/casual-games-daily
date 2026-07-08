@@ -29,18 +29,19 @@ jobs:
 
       - name: Generate report
         run: python3 scripts/generate_report.py
+        env:
+          TZ: Asia/Shanghai
 
       - name: Commit and push
         run: |
           git config user.name "Game Report Bot"
           git config user.email "bot@casualgames.daily"
           
-          # Check if there are changes
-          if git diff --quiet && git diff --staged --quiet; then
+          git add reports/ index.html data/
+          
+          if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          
-          git add reports/ index.html data/
-          git commit -m "Daily report: $(date +%Y-%m-%d)"
+          git commit -m "Daily report: $(TZ=Asia/Shanghai date +%Y-%m-%d)"
           git push
