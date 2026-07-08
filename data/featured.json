@@ -41,6 +41,27 @@
         "2026-07-08"
       ],
       "first_seen": "2026-07-08"
+    },
+    "com.abi.colony.flow": {
+      "name": "Colony Flow!",
+      "dates": [
+        "2026-07-09"
+      ],
+      "first_seen": "2026-07-09"
+    },
+    "gp:com.block.juggle": {
+      "name": "Block Blast!",
+      "dates": [
+        "2026-07-09"
+      ],
+      "first_seen": "2026-07-09"
+    },
+    "gp:com.easybrain.jigsaw.puzzles": {
+      "name": "Jigsaw Puzzles - Puzzle Games",
+      "dates": [
+        "2026-07-09"
+      ],
+      "first_seen": "2026-07-09"
     }
   },
   "cooldown_days": 30
