@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 google-play-scraper
+          pip install requests beautifulsoup4 google-play-scraper pytz
 
       - name: Generate report
         run: python3 scripts/generate_report.py
