@@ -1,0 +1,26 @@
+{
+  "featured": {
+    "jp.pokemon.pokemonchampions": {
+      "name": "Pokémon Champions",
+      "dates": [
+        "2026-07-08"
+      ],
+      "first_seen": "2026-07-08"
+    },
+    "gp:com.dreamgames.royalmatch": {
+      "name": "Royal Match",
+      "dates": [
+        "2026-07-08"
+      ],
+      "first_seen": "2026-07-08"
+    },
+    "gp:com.moonactive.coinmaster": {
+      "name": "Coin Master",
+      "dates": [
+        "2026-07-08"
+      ],
+      "first_seen": "2026-07-08"
+    }
+  },
+  "cooldown_days": 30
+}
