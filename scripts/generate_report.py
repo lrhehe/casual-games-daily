@@ -5,9 +5,8 @@
 """
 import json, re, sys, os
 from datetime import datetime, timedelta, timezone
-import pytz
 
-TZ = pytz.timezone("Asia/Shanghai")
+TZ = timezone(timedelta(hours=8))  # Beijing time
 from pathlib import Path
 from collections import defaultdict
 import requests
@@ -129,7 +128,7 @@ def fetch_itunes_details(games):
                 rd = r.get("releaseDate", "")
                 if rd:
                     release_dt = datetime.fromisoformat(rd.replace("Z", "+00:00"))
-                    days_ago = (datetime.now(TZ) - release_dt.replace(tzinfo=None)).days
+                    days_ago = (datetime.now(TZ).replace(tzinfo=None) - release_dt.replace(tzinfo=None)).days
                     game["daysSinceRelease"] = max(days_ago, 1)
                     game["dailyReviews"] = game["ratingCount"] // game["daysSinceRelease"]
         except Exception as e:
