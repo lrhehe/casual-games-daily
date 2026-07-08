@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎮 每日休闲游戏精选 — REPLACE_DATE</title>
+<style>
+  :root {
+    --bg: #0a0a14; --card: #151528; --card-hover: #1c1c38;
+    --accent: #7c5cfc; --accent2: #ff6b9d; --gold: #f9ca24;
+    --green: #2ecc71; --blue: #4da6ff; --orange: #ff9f43;
+    --text: #e8e8f0; --text2: #9090b0; --border: #252540;
+    --radius: 16px;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7; min-height: 100vh;
+  }
+
+  /* Header */
+  .report-header {
+    background: linear-gradient(160deg, #1a1040 0%, #0d1b3e 40%, #0a0a14 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 36px 24px 28px; text-align: center; position: relative; overflow: hidden;
+  }
+  .report-header::before, .report-header::after {
+    content: ''; position: absolute; border-radius: 50%; pointer-events: none;
+  }
+  .report-header::before {
+    top: -50px; right: -50px; width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(124,92,252,0.18), transparent 70%);
+  }
+  .report-header::after {
+    bottom: -30px; left: -30px; width: 140px; height: 140px;
+    background: radial-gradient(circle, rgba(255,107,157,0.12), transparent 70%);
+  }
+  .report-header h1 {
+    font-size: 2rem; font-weight: 800; position: relative; z-index: 1;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .report-header .date { color: var(--text2); font-size: 0.9rem; margin-top: 6px; position: relative; z-index: 1; }
+
+  .container { max-width: 900px; margin: 0 auto; padding: 28px 20px 60px; }
+
+  /* ── Game Card ── */
+  .game-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 28px; margin: 28px 0; position: relative; overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .game-card:hover { border-color: var(--accent); }
+  .game-card::after {
+    content: ''; position: absolute; top: 0; right: 0;
+    width: 120px; height: 120px;
+    background: radial-gradient(circle at top right, rgba(124,92,252,0.06), transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Card header row: icon + meta */
+  .game-header {
+    display: flex; gap: 20px; align-items: flex-start; margin-bottom: 20px;
+    position: relative; z-index: 1;
+  }
+  .game-icon {
+    width: 80px; height: 80px; border-radius: 18px; flex-shrink: 0;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5); object-fit: cover;
+  }
+  .game-meta { flex: 1; min-width: 0; }
+  .game-meta h2 { font-size: 1.35rem; font-weight: 700; margin-bottom: 4px; }
+  .game-meta .dev { color: var(--text2); font-size: 0.85rem; }
+  .game-meta .tags { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag {
+    display: inline-block; padding: 3px 10px; border-radius: 20px;
+    font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em;
+  }
+  .tag-hyper { background: rgba(255,107,157,0.15); color: var(--accent2); }
+  .tag-hybrid { background: rgba(77,166,255,0.15); color: var(--blue); }
+  .tag-casual { background: rgba(46,204,113,0.15); color: var(--green); }
+  .tag-puzzle { background: rgba(255,159,67,0.15); color: var(--orange); }
+
+  /* Star rating */
+  .rating-row {
+    display: flex; align-items: center; gap: 10px; margin-top: 6px;
+  }
+  .stars { color: var(--gold); font-size: 1.1rem; letter-spacing: 2px; }
+  .rating-num { font-weight: 700; font-size: 1rem; color: var(--gold); }
+  .rating-count { color: var(--text2); font-size: 0.8rem; }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex; gap: 24px; margin: 16px 0;
+    padding: 12px 16px; background: rgba(255,255,255,0.03);
+    border-radius: 12px; position: relative; z-index: 1;
+  }
+  .stat { text-align: center; }
+  .stat-val { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+  .stat-label { font-size: 0.72rem; color: var(--text2); margin-top: 2px; }
+
+  /* Section labels */
+  .section-label {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 0.82rem; font-weight: 700; color: var(--accent);
+    margin: 18px 0 8px; position: relative; z-index: 1;
+  }
+  .section-label::after {
+    content: ''; flex: 1; height: 1px; background: var(--border);
+    min-width: 40px; margin-left: 4px;
+  }
+
+  .gameplay-desc, .highlight-desc {
+    font-size: 0.92rem; color: var(--text); line-height: 1.75;
+    position: relative; z-index: 1;
+  }
+
+  /* Highlight box */
+  .highlight-box {
+    background: linear-gradient(135deg, rgba(124,92,252,0.08), rgba(255,107,157,0.05));
+    border: 1px solid rgba(124,92,252,0.25); border-radius: 12px;
+    padding: 16px 20px; margin: 14px 0; position: relative; z-index: 1;
+  }
+  .highlight-box h4 { color: var(--accent); font-size: 0.85rem; margin-bottom: 6px; }
+
+  /* Insights list */
+  .insights-list { list-style: none; padding: 0; position: relative; z-index: 1; }
+  .insights-list li {
+    padding: 8px 0 8px 28px; position: relative; font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .insights-list li:last-child { border-bottom: none; }
+  .insights-list li::before {
+    content: '▸'; position: absolute; left: 4px;
+    color: var(--accent); font-weight: 700;
+  }
+
+  /* Divider */
+  .divider { height: 1px; background: var(--border); margin: 10px 0; position: relative; z-index: 1; }
+
+  /* Trend section */
+  .trend-card {
+    background: linear-gradient(135deg, rgba(249,202,36,0.06), rgba(124,92,252,0.06));
+    border: 1px solid rgba(249,202,36,0.2); border-radius: var(--radius);
+    padding: 24px 28px; margin: 32px 0 0;
+  }
+  .trend-card h3 { color: var(--gold); font-size: 1.05rem; margin-bottom: 8px; }
+  .trend-card p { font-size: 0.9rem; color: var(--text2); }
+
+  /* Footer */
+  .report-footer {
+    text-align: center; padding: 30px 20px; color: var(--text2); font-size: 0.78rem;
+    border-top: 1px solid var(--border); margin-top: 20px;
+  }
+  .report-footer a { color: var(--accent); text-decoration: none; }
+
+  /* Link button */
+  .appstore-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(124,92,252,0.12); color: var(--accent);
+    padding: 6px 14px; border-radius: 20px; text-decoration: none;
+    font-size: 0.78rem; font-weight: 600; margin-top: 8px; transition: background 0.2s;
+    position: relative; z-index: 1;
+  }
+  .appstore-link:hover { background: rgba(124,92,252,0.25); }
+
+  @media (max-width: 640px) {
+    .game-header { flex-direction: column; align-items: center; text-align: center; }
+    .game-meta .tags { justify-content: center; }
+    .stats-bar { gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .game-card { padding: 20px 16px; }
+    .report-header h1 { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="report-header">
+  <h1>🎮 每日休闲游戏精选</h1>
+  <p class="date">REPLACE_DATE</p>
+</header>
+
+<div class="container">
+  <!-- ───────────────────────────────── -->
+  <!-- GAME 1: REPLACE_GAME1_NAME -->
+  <!-- ───────────────────────────────── -->
+  <div class="game-card">
+    <div class="game-header">
+      <img class="game-icon" src="REPLACE_GAME1_ICON" alt="REPLACE_GAME1_NAME" onerror="this.style.display='none'" loading="lazy">
+      <div class="game-meta">
+        <h2>🎮 REPLACE_GAME1_NAME</h2>
+        <div class="dev">REPLACE_GAME1_DEV</div>
+        <div class="rating-row">
+          <span class="stars">REPLACE_GAME1_STARS</span>
+          <span class="rating-num">REPLACE_GAME1_RATING</span>
+          <span class="rating-count">（REPLACE_GAME1_REVIEWS 评）</span>
+        </div>
+        <div class="tags">
+          <span class="tag REPLACE_GAME1_TAG_CLASS">REPLACE_GAME1_TYPE</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-val">REPLACE_GAME1_RELEASE</div><div class="stat-label">上线时间</div></div>
+      <div class="stat"><div class="stat-val">REPLACE_GAME1_VERSION</div><div class="stat-label">当前版本</div></div>
+      <div class="stat"><div class="stat-val">REPLACE_GAME1_GENRE</div><div class="stat-label">子类型</div></div>
+    </div>
+
+    <div class="section-label">🎯 核心玩法</div>
+    <p class="gameplay-desc">REPLACE_GAME1_GAMEPLAY</p>
+
+    <div class="highlight-box">
+      <h4>💡 创新亮点</h4>
+      <p class="highlight-desc">REPLACE_GAME1_HIGHLIGHT</p>
+    </div>
+
+    <div class="section-label">📊 市场信号</div>
+    <p class="gameplay-desc">REPLACE_GAME1_MARKET</p>
+
+    <div class="section-label">🧠 策划启示</div>
+    <ul class="insights-list">
+      REPLACE_GAME1_INSIGHTS
+    </ul>
+
+    <a class="appstore-link" href="REPLACE_GAME1_URL" target="_blank" rel="noopener">📱 App Store 查看</a>
+  </div>
+
+  <!-- ───────────────────────────────── -->
+  <!-- GAME 2 -->
+  <!-- ───────────────────────────────── -->
+  <div class="game-card">
+    <div class="game-header">
+      <img class="game-icon" src="REPLACE_GAME2_ICON" alt="REPLACE_GAME2_NAME" onerror="this.style.display='none'" loading="lazy">
+      <div class="game-meta">
+        <h2>🎮 REPLACE_GAME2_NAME</h2>
+        <div class="dev">REPLACE_GAME2_DEV</div>
+        <div class="rating-row">
+          <span class="stars">REPLACE_GAME2_STARS</span>
+          <span class="rating-num">REPLACE_GAME2_RATING</span>
+          <span class="rating-count">（REPLACE_GAME2_REVIEWS 评）</span>
+        </div>
+        <div class="tags">
+          <span class="tag REPLACE_GAME2_TAG_CLASS">REPLACE_GAME2_TYPE</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-val">REPLACE_GAME2_RELEASE</div><div class="stat-label">上线时间</div></div>
+      <div class="stat"><div class="stat-val">REPLACE_GAME2_VERSION</div><div class="stat-label">当前版本</div></div>
+      <div class="stat"><div class="stat-val">REPLACE_GAME2_GENRE</div><div class="stat-label">子类型</div></div>
+    </div>
+
+    <div class="section-label">🎯 核心玩法</div>
+    <p class="gameplay-desc">REPLACE_GAME2_GAMEPLAY</p>
+
+    <div class="highlight-box">
+      <h4>💡 创新亮点</h4>
+      <p class="highlight-desc">REPLACE_GAME2_HIGHLIGHT</p>
+    </div>
+
+    <div class="section-label">📊 市场信号</div>
+    <p class="gameplay-desc">REPLACE_GAME2_MARKET</p>
+
+    <div class="section-label">🧠 策划启示</div>
+    <ul class="insights-list">
+      REPLACE_GAME2_INSIGHTS
+    </ul>
+
+    <a class="appstore-link" href="REPLACE_GAME2_URL" target="_blank" rel="noopener">📱 App Store 查看</a>
+  </div>
+
+  <!-- ───────────────────────────────── -->
+  <!-- GAME 3 -->
+  <!-- ───────────────────────────────── -->
+  <div class="game-card">
+    <div class="game-header">
+      <img class="game-icon" src="REPLACE_GAME3_ICON" alt="REPLACE_GAME3_NAME" onerror="this.style.display='none'" loading="lazy">
+      <div class="game-meta">
+        <h2>🎮 REPLACE_GAME3_NAME</h2>
+        <div class="dev">REPLACE_GAME3_DEV</div>
+        <div class="rating-row">
+          <span class="stars">REPLACE_GAME3_STARS</span>
+          <span class="rating-num">REPLACE_GAME3_RATING</span>
+          <span class="rating-count">（REPLACE_GAME3_REVIEWS 评）</span>
+        </div>
+        <div class="tags">
+          <span class="tag REPLACE_GAME3_TAG_CLASS">REPLACE_GAME3_TYPE</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-val">REPLACE_GAME3_RELEASE</div><div class="stat-label">上线时间</div></div>
+      <div class="stat"><div class="stat-val">REPLACE_GAME3_VERSION</div><div class="stat-label">当前版本</div></div>
+      <div class="stat"><div class="stat-val">REPLACE_GAME3_GENRE</div><div class="stat-label">子类型</div></div>
+    </div>
+
+    <div class="section-label">🎯 核心玩法</div>
+    <p class="gameplay-desc">REPLACE_GAME3_GAMEPLAY</p>
+
+    <div class="highlight-box">
+      <h4>💡 创新亮点</h4>
+      <p class="highlight-desc">REPLACE_GAME3_HIGHLIGHT</p>
+    </div>
+
+    <div class="section-label">📊 市场信号</div>
+    <p class="gameplay-desc">REPLACE_GAME3_MARKET</p>
+
+    <div class="section-label">🧠 策划启示</div>
+    <ul class="insights-list">
+      REPLACE_GAME3_INSIGHTS
+    </ul>
+
+    <a class="appstore-link" href="REPLACE_GAME3_URL" target="_blank" rel="noopener">📱 App Store 查看</a>
+  </div>
+
+  <!-- ───────────────────────────────── -->
+  <!-- Trend Observation -->
+  <!-- ───────────────────────────────── -->
+  <div class="trend-card">
+    <h3>💡 今日趋势观察</h3>
+    <p>REPLACE_TREND</p>
+  </div>
+
+</div>
+
+<footer class="report-footer">
+  <p>由 AI Agent 自动调研生成 · 数据来源：App Store / YouTube / Reddit · <a href="../">← 返回首页</a></p>
+  <p style="margin-top:4px">Generated: REPLACE_TIMESTAMP</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎮 每日休闲游戏精选</title>
+<style>
+  :root {
+    --bg: #0a0a14;
+    --card: #151528;
+    --card-hover: #1c1c38;
+    --accent: #7c5cfc;
+    --accent2: #ff6b9d;
+    --gold: #f9ca24;
+    --green: #2ecc71;
+    --text: #e8e8f0;
+    --text2: #9090b0;
+    --border: #252540;
+    --radius: 16px;
+    --shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Noto Sans SC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .site-header {
+    background: linear-gradient(135deg, #1a1040 0%, #0d1b3e 40%, #0a0a14 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 32px 24px 24px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .site-header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(124,92,252,0.2), transparent 70%);
+    border-radius: 50%;
+  }
+  .site-header::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; left: -40px;
+    width: 160px; height: 160px;
+    background: radial-gradient(circle, rgba(255,107,157,0.15), transparent 70%);
+    border-radius: 50%;
+  }
+  .site-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+  }
+  .site-header .subtitle {
+    color: var(--text2);
+    font-size: 0.9rem;
+    margin-top: 6px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .container { max-width: 960px; margin: 0 auto; padding: 24px 20px; }
+
+  /* ── Report List ── */
+  .section-title {
+    font-size: 1.1rem;
+    color: var(--text2);
+    margin: 32px 0 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .report-list { display: flex; flex-direction: column; gap: 10px; }
+  .report-link {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    text-decoration: none;
+    color: var(--text);
+    transition: all 0.2s;
+  }
+  .report-link:hover { background: var(--card-hover); border-color: var(--accent); transform: translateY(-2px); }
+  .report-link .date-badge {
+    background: var(--accent);
+    color: white;
+    border-radius: 10px;
+    padding: 6px 14px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  .report-link .preview { font-size: 0.9rem; color: var(--text2); flex: 1; }
+  .report-link .arrow { color: var(--accent); font-size: 1.2rem; }
+
+  /* ── Footer ── */
+  .site-footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text2);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+  .site-footer a { color: var(--accent); text-decoration: none; }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .site-header h1 { font-size: 1.5rem; }
+    .report-link { padding: 12px 14px; }
+    .report-link .preview { font-size: 0.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>🎮 每日休闲游戏精选</h1>
+  <p class="subtitle">每天 3 款值得关注的海外休闲手游 · Casual Game Daily</p>
+</header>
+
+<div class="container">
+  <p style="text-align:center;color:var(--text2);margin:40px 0">
+    📡 报告将于每天早上 9:00 自动更新<br>
+    每篇报告精选 3 款有出海参考价值的新休闲/混合休闲手游
+  </p>
+</div>
+
+<footer class="site-footer">
+  <p>由 AI Agent 自动生成 · <a href="https://github.com/lrhehe/casual-games-daily">GitHub</a></p>
+</footer>
+
+</body>
+</html>
