@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>每日休闲游戏精选 — 2026年7月9日 星期四</title>
+<title>🎮 每日休闲游戏精选 — 2026-07-09</title>
 <style>
 :root{--bg:#0a0a14;--card:#151528;--accent:#7c5cfc;--accent2:#ff6b9d;--gold:#f9ca24;--green:#2ecc71;--blue:#4da6ff;--orange:#ff9f43;--text:#e8e8f0;--text2:#9090b0;--border:#252540;--radius:16px}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -19,8 +19,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",s
 .game-card::after{content:'';position:absolute;top:0;right:0;width:120px;height:120px;background:radial-gradient(circle at top right,rgba(124,92,252,0.06),transparent 70%)}
 .game-header{display:flex;gap:20px;align-items:flex-start;margin-bottom:20px;position:relative;z-index:1}
 .game-icon{width:80px;height:80px;border-radius:18px;flex-shrink:0;box-shadow:0 8px 24px rgba(0,0,0,0.5);object-fit:cover}
-.game-meta{flex:1;min-width:0}
-.game-meta h2{font-size:1.35rem;font-weight:700;margin-bottom:4px}
+.game-meta{flex:1;min-width:0}.game-meta h2{font-size:1.35rem;font-weight:700;margin-bottom:4px}
 .game-meta .dev{color:var(--text2);font-size:.85rem}
 .game-meta .tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
 .tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:600}
@@ -28,17 +27,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",s
 .tag-hybrid{background:rgba(77,166,255,0.15);color:var(--blue)}
 .tag-casual{background:rgba(46,204,113,0.15);color:var(--green)}
 .tag-puzzle{background:rgba(255,159,67,0.15);color:var(--orange)}
+.tag-new{background:rgba(249,202,36,0.2);color:var(--gold)}
+.tag-hot{background:rgba(255,107,157,0.2);color:var(--accent2)}
 .rating-row{display:flex;align-items:center;gap:10px;margin-top:6px}
 .stars{color:var(--gold);font-size:1.1rem;letter-spacing:2px}
 .rating-num{font-weight:700;font-size:1rem;color:var(--gold)}
 .rating-count{color:var(--text2);font-size:.8rem}
-.stats-bar{display:flex;gap:24px;margin:16px 0;padding:12px 16px;background:rgba(255,255,255,0.03);border-radius:12px;position:relative;z-index:1}
-.stat{text-align:center}.stat-val{font-size:1.1rem;font-weight:700;color:var(--accent)}.stat-label{font-size:.72rem;color:var(--text2);margin-top:2px}
+.stats-bar{display:flex;gap:20px;flex-wrap:wrap;margin:16px 0;padding:14px 18px;background:rgba(255,255,255,0.03);border-radius:12px;position:relative;z-index:1}
+.stat{text-align:center}.stat-val{font-size:1.05rem;font-weight:700;color:var(--accent)}.stat-label{font-size:.72rem;color:var(--text2);margin-top:2px}
+.stat-highlight .stat-val{color:var(--gold)}
 .section-label{display:inline-flex;align-items:center;gap:6px;font-size:.82rem;font-weight:700;color:var(--accent);margin:18px 0 8px;position:relative;z-index:1}
 .section-label::after{content:'';flex:1;height:1px;background:var(--border);min-width:40px;margin-left:4px}
 .gameplay-desc,.highlight-desc{font-size:.92rem;line-height:1.75;position:relative;z-index:1}
 .highlight-box{background:linear-gradient(135deg,rgba(124,92,252,0.08),rgba(255,107,157,0.05));border:1px solid rgba(124,92,252,0.25);border-radius:12px;padding:16px 20px;margin:14px 0;position:relative;z-index:1}
 .highlight-box h4{color:var(--accent);font-size:.85rem;margin-bottom:6px}
+.dev-info{font-size:.85rem;color:var(--text2);margin:8px 0;position:relative;z-index:1}
+.dev-info strong{color:var(--text)}
 .insights-list{list-style:none;padding:0;position:relative;z-index:1}
 .insights-list li{padding:8px 0 8px 28px;position:relative;font-size:.9rem;border-bottom:1px solid rgba(255,255,255,0.04)}
 .insights-list li:last-child{border-bottom:none}
@@ -47,83 +51,93 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",s
 .trend-card h3{color:var(--gold);font-size:1.05rem;margin-bottom:8px}
 .trend-card p{font-size:.9rem;color:var(--text2)}
 .appstore-link{display:inline-flex;align-items:center;gap:6px;background:rgba(124,92,252,0.12);color:var(--accent);padding:6px 14px;border-radius:20px;text-decoration:none;font-size:.78rem;font-weight:600;margin-top:8px;position:relative;z-index:1}
+.appstore-link:hover{background:rgba(124,92,252,0.25)}
 .report-footer{text-align:center;padding:30px 20px;color:var(--text2);font-size:.78rem;border-top:1px solid var(--border);margin-top:20px}
 .report-footer a{color:var(--accent);text-decoration:none}
-@media(max-width:640px){.game-header{flex-direction:column;align-items:center;text-align:center}.game-meta .tags{justify-content:center}.stats-bar{gap:12px;flex-wrap:wrap;justify-content:center}.game-card{padding:20px 16px}.report-header h1{font-size:1.5rem}}
+@media(max-width:640px){.game-header{flex-direction:column;align-items:center;text-align:center}.game-meta .tags{justify-content:center}.stats-bar{gap:10px;justify-content:center}.game-card{padding:20px 16px}.report-header h1{font-size:1.5rem}}
 </style>
 </head>
 <body>
-<header class="report-header"><h1>🎮 每日休闲游戏精选</h1><p class="date">2026年7月9日 星期四</p></header>
+<header class="report-header"><h1>🎮 每日休闲游戏精选</h1><p class="date">2026-07-09</p></header>
 <div class="container">
 
+<!-- ─── GAME 1: Subway Surfers City ─── -->
 <div class="game-card">
 <div class="game-header">
-<img class="game-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/1e/45/121e45c6-13a2-10b5-7ae4-4d5c0ec4847f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Block Out! - Color Sort Puzzle" onerror="this.style.display='none'" loading="lazy">
+<img class="game-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/03/4f/dd034ff6-f0a1-0afe-675a-dddcff0e9e22/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Subway Surfers City" onerror="this.style.display='none'" loading="lazy">
 <div class="game-meta">
-<h2>🎮 Block Out! - Color Sort Puzzle</h2><div class="dev">Grand Games A.Ş.（土耳其 · 伊斯坦布尔）</div>
-<div class="rating-row"><span class="stars">★★★★½</span><span class="rating-num">4.73</span><span class="rating-count">（111,505 评）</span></div>
-<div class="tags"><span class="tag tag-puzzle">解谜</span><span class="tag tag-casual">休闲</span></div>
+<h2>🎮 Subway Surfers City</h2><div class="dev">Sybo Games ApS</div>
+<div class="rating-row"><span class="stars">★★★★★</span><span class="rating-num">4.9</span><span class="rating-count">（20,396 评 · 日均 +154/天）</span></div>
+<div class="tags"><span class="tag tag-hybrid">混合休闲</span><span class="tag tag-hot">🔥 HOT</span></div>
 </div></div>
 <div class="stats-bar">
-<div class="stat"><div class="stat-val">2025-10-31</div><div class="stat-label">上线</div></div>
-<div class="stat"><div class="stat-val">v680</div><div class="stat-label">版本</div></div>
-<div class="stat"><div class="stat-val">Puzzle · Casual</div><div class="stat-label">类型</div></div>
+<div class="stat stat-highlight"><div class="stat-val">132 天前</div><div class="stat-label">上线</div></div>
+<div class="stat"><div class="stat-val">2.3.1</div><div class="stat-label">版本</div></div>
+<div class="stat"><div class="stat-val">跑酷动作</div><div class="stat-label">类型</div></div>
+<div class="stat"><div class="stat-val">14 语言</div><div class="stat-label">本地化</div></div>
 </div>
-<div class="section-label">🧩 核心玩法</div><p class="gameplay-desc">滑动彩色方块至对应颜色的目标门，完成消除。核心差异在于引入了<strong>动态关卡元素</strong>——移动电梯平台和方块生成器持续改变版面布局，玩家必须在有限空间内规划滑动路径，同时应对不断出现的新方块。每个关卡布局动态变化，随着进度推进引入旋转陷阱、传送门等机制，保持新鲜感。与静态颜色排序（Water Sort）不同，本作强调空间推理与即时决策。</p>
-<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">在已高度饱和的「颜色排序」品类中，通过添加<strong>动态关卡装置</strong>（电梯、生成器）将静态排列升级为动态解谜。这一设计将品类从「耐心整理」推向「策略快节奏」——既保留了排序满足感，又注入了动作元素。开发商 Grand Games 此前凭 Magic Sort!（52.8 万评）已证明品类执行力，本作是其「排序+」产品矩阵的第二张牌。</p></div>
-<div class="section-label">📊 市场信号</div><p class="gameplay-desc">上线不到 9 个月即积累 11 万+ 评分，版本迭代至 v680（高频更新），日活估算在 50-100 万量级。开发商 Grand Games 旗下 6 款产品中 3 款评分超 10 万，形成清晰的「排序/匹配」产品矩阵（Magic Sort → Block Out → Car Match → Arrow Jam），显示其已建立系统化的品类深耕方法论。土耳其正崛起为欧洲休闲游戏研发中心，Grand Games 是其中代表。</p>
-<div class="section-label">🎯 策划启示</div>
-<ul class="insights-list"><li><strong>饱和品类突围策略：</strong>颜色排序品类已极度拥挤，但加入动态关卡装置（电梯、陷阱、传送门）即可创造差异化。中国团队在「三消+」「泡泡龙+」等成熟品类中可借鉴此思路——用一个新维度重构旧公式。</li><li><strong>产品矩阵打法：</strong>Grand Games 展示了「核心机制 × N 种变体」的矩阵策略。中国出海团队可建立自己的「母机制」资产库，以 6-8 个月为周期推出变体，共享技术中台和买量数据。</li><li><strong>土耳其模式研究：</strong>伊斯坦布尔游戏生态正快速成熟（Dream Games、Grand Games、Ruby Games）。建议中国出海策划关注土耳其团队的商业化节奏和创意方法论，尤其是在 puzzle 品类中对「满足感」的极致打磨。</li></ul>
-<a class="appstore-link" href="https://apps.apple.com/us/app/block-out-color-sort-puzzle/id6752672568?uo=4" target="_blank">📱 App Store 查看</a>
+<div class="dev-info">🏢 <strong>Sybo Games ApS</strong> · 开发商共 <strong>5+</strong> 款游戏（含爆款 Subway Surfers 376 万评、Blades of Brim 1.2 万评）</div>
+<div class="section-label">🎯 核心玩法</div><p class="gameplay-desc">Subway Surfers 系列最新力作，在经典三线跑酷基础上增加城市探索、新角色收集和关卡挑战系统。玩家操作角色闪避障碍、收集金币和道具，通过完成任务推进剧情线，探索不断扩展的城市地图。</p>
+<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">经典 IP 混合休闲化改造——Subway Surfers 拥有 37 亿+下载量的全球认知度，City 版本通过升级画质、增加探索元素和更深度的养成系统，将超休闲跑酷升级为混合休闲体验，在保留核心爽感的同时显著提升用户 LTV。</p></div>
+<div class="section-label">📊 市场信号</div><p class="gameplay-desc">日均 +154 评价的高速增长表明产品处于积极投放阶段。132 天积累 2 万评价在跑酷品类中增速健康。Sybo 近期连续推出 Subway Surfers+（订阅制）、Subway Surfers Tag（捉人玩法）和 City，形成清晰的 IP 矩阵化战略。368MB 包体反映资源投入较大。</p>
+<div class="section-label">🧠 策划启示</div>
+<ul class="insights-list"><li>IP 矩阵化策略：用同一世界观推出不同玩法产品（Tag=捉人、City=跑酷探索、+=订阅制），最大化 IP 价值，降低单一产品风险</li><li>超休闲→混合休闲转型路径：通过增加收集、养成、探索等中重度系统渐进式提升复杂度，老 IP 焕新可参考此模板</li><li>368MB 包体在东南亚/拉美等新兴市场可能成为下载门槛，竞品应关注轻量化方案以抢占下沉市场</li></ul>
+<a class="appstore-link" href="https://apps.apple.com/us/app/subway-surfers-city/id6504188939?uo=4" target="_blank" rel="noopener">📱 App Store 查看</a>
 </div>
 
+<!-- ─── GAME 2: Rebel Glam: Dress Up Games ─── -->
 <div class="game-card">
 <div class="game-header">
-<img class="game-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/71/3e/ae713eea-5595-cbe8-8449-0007ff55bf19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Carnival Tycoon: Coin Games" onerror="this.style.display='none'" loading="lazy">
+<img class="game-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/cc/6e/decc6e23-1867-2d1f-3e7a-2f63484c1c15/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Rebel Glam: Dress Up Games" onerror="this.style.display='none'" loading="lazy">
 <div class="game-meta">
-<h2>🎪 Carnival Tycoon: Coin Games</h2><div class="dev">Wild Candle Spin LLC（美国）</div>
-<div class="rating-row"><span class="stars">★★★★★</span><span class="rating-num">4.80</span><span class="rating-count">（75,141 评）</span></div>
-<div class="tags"><span class="tag tag-hybrid">混合休闲</span><span class="tag tag-casual">模拟经营</span></div>
+<h2>🎮 Rebel Glam: Dress Up Games</h2><div class="dev">Arcloom., Ltd.</div>
+<div class="rating-row"><span class="stars">★★★★☆</span><span class="rating-num">4.6</span><span class="rating-count">（6,977 评 · 日均 +125/天）</span></div>
+<div class="tags"><span class="tag tag-casual">休闲</span><span class="tag tag-hot">🔥 HOT</span></div>
 </div></div>
 <div class="stats-bar">
-<div class="stat"><div class="stat-val">2024-01-30</div><div class="stat-label">上线</div></div>
-<div class="stat"><div class="stat-val">v1.0.115</div><div class="stat-label">版本</div></div>
-<div class="stat"><div class="stat-val">Simulation · Casual</div><div class="stat-label">类型</div></div>
+<div class="stat stat-highlight"><div class="stat-val">56 天前</div><div class="stat-label">上线</div></div>
+<div class="stat"><div class="stat-val">1.0.5</div><div class="stat-label">版本</div></div>
+<div class="stat"><div class="stat-val">换装模拟</div><div class="stat-label">类型</div></div>
+<div class="stat"><div class="stat-val">2 语言</div><div class="stat-label">本地化</div></div>
 </div>
-<div class="section-label">🎢 核心玩法</div><p class="gameplay-desc">将街机厅经典的<strong>推币机（Coin Pusher）</strong>物理玩法与闲置模拟经营融合。玩家通过推币获取金币和奖励，用收益建造和升级主题乐园设施——过山车、摩天轮、旋转木马等。推币层提供即时的物理满足感和随机奖励刺激；经营层提供长期目标和成长感。两者通过「推币赚金币 → 金币建乐园 → 乐园吸引游客 → 游客产生更多推币机会」形成闭环。支持好友社交互动。</p>
-<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">「物理街机 + 模拟经营」这一融合在移动端极为罕见。大多数模拟经营游戏用抽象进度条代替核心交互，而本作用<strong>真实物理推币</strong>作为核心操作——每次推币都有不可预测的物理结果，创造了天然的「再来一次」冲动。推币机的赌博心理机制（near-miss 效应、间歇性奖励）与经营游戏的长期目标感形成互补，同时覆盖了两种不同的玩家动机。</p></div>
-<div class="section-label">📊 市场信号</div><p class="gameplay-desc">评分 4.80 属于休闲游戏中的顶级水平，75K+ 评论表明稳定且满意的用户群。开发商为单产品工作室（Wild Candle Spin LLC），Bundle ID（com.solitairetripeaks.masterdesign）暗示产品可能经历过重大方向调整。从纸牌到推币+经营的 pivot 值得研究——说明团队有数据驱动的迭代意愿。上线 2.5 年保持更新，生命周期管理健康。</p>
-<div class="section-label">🎯 策划启示</div>
-<ul class="insights-list"><li><strong>街机物理 + 休闲经营 = 蓝海公式：</strong>推币机、抓娃娃机、弹珠台等街机物理玩法在中国市场有深厚群众基础，但极少被融入经营游戏。中国出海团队可将「黄金矿工+经营」「投篮机+经营」「扭蛋机+经营」等融合作为新品方向。</li><li><strong>双动机驱动留存：</strong>即时满足（推币掉落的随机奖励）+ 延迟满足（乐园升级的成长感）同时服务两类玩家心理。这一双轨设计可迁移至其他品类——如「拼图+家装」「消除+剧情」已验证此模式。</li><li><strong>近失效应的合法化应用：</strong>推币机天然携带 near-miss 体验（硬币在边缘摇摇欲坠），这是最强的留存钩子之一。在合规前提下，中国出海产品可在物理交互中嵌入微妙的「差点成功」反馈，提升重试率。</li></ul>
-<a class="appstore-link" href="https://apps.apple.com/us/app/carnival-tycoon-coin-games/id6475709488?uo=4" target="_blank">📱 App Store 查看</a>
+<div class="dev-info">🏢 <strong>Arcloom., Ltd.</strong> · 开发商共 <strong>7+</strong> 款游戏（含爆款 Love Idol 1.2 万评、Mia World 8,082 评）</div>
+<div class="section-label">🎯 核心玩法</div><p class="gameplay-desc">以"叛逆美学"为主题的时尚换装模拟游戏，融合化妆、造型和场景搭配。玩家通过设计自己的虚拟形象、搭配前卫服装和配饰、探索全球潮流趋势，完成风格挑战和剧情故事任务，打造独一无二的个性造型。</p>
+<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">风格差异化破局——不同于传统甜美/公主风的换装游戏，Rebel Glam 主打暗黑、街头、前卫的美学风格，精准切入 Z 世代女性用户"我是独特的"这一情感需求。赛道选择本身就是品类创新。</p></div>
+<div class="section-label">📊 市场信号</div><p class="gameplay-desc">56 天积累近 7,000 评价，日均 +125 的增长速度在换装赛道中非常亮眼。Arcloom 此前已有 Love Idol（11.8K 评）和 Mia World（8K 评）的成功产品，显示其在女性向休闲游戏赛道有成熟的买量和运营能力。仅 2 种语言（英文+中文）表明目前处于早期测试/起量阶段，本地化扩展后增长空间大。</p>
+<div class="section-label">🧠 策划启示</div>
+<ul class="insights-list"><li>风格差异化 = 低成本获客：在成熟品类中寻找空白细分定位（叛逆风 vs 甜美风），用视觉风格和情绪价值区分竞品，降低买量竞争</li><li>女性向赛道 LTV 优势：换装/化妆类游戏 ARPU 和留存普遍高于一般超休闲，且 UGC 属性强（分享穿搭截图=免费传播），值得长期深耕</li><li>Arcloom 产品矩阵覆盖排序、拼图、换装等多个子类型，建议关注其交叉推广策略和玩法模板复用模式</li></ul>
+<a class="appstore-link" href="https://apps.apple.com/us/app/rebel-glam-dress-up-games/id6766739255?uo=4" target="_blank" rel="noopener">📱 App Store 查看</a>
 </div>
 
+<!-- ─── GAME 3: Amaze GO! ─── -->
 <div class="game-card">
 <div class="game-header">
-<img class="game-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/64/f9/5b64f914-fc5a-c444-eb7a-90cd3dd5fff4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Space Waves - CrazyGames" onerror="this.style.display='none'" loading="lazy">
+<img class="game-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/17/69/83176946-9318-0021-0854-8a775be20e65/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Amaze GO!" onerror="this.style.display='none'" loading="lazy">
 <div class="game-meta">
-<h2>🚀 Space Waves - CrazyGames</h2><div class="dev">CrazyGames.com（比利时 · 鲁汶）</div>
-<div class="rating-row"><span class="stars">★★★★½</span><span class="rating-num">4.70</span><span class="rating-count">（54,126 评）</span></div>
-<div class="tags"><span class="tag tag-hyper">超休闲</span><span class="tag tag-casual">街机</span></div>
+<h2>🎮 Amaze GO!</h2><div class="dev">OAKEVER GAMES PTE. LTD.</div>
+<div class="rating-row"><span class="stars">★★★★☆</span><span class="rating-num">4.6</span><span class="rating-count">（132,035 评 · 日均 +911/天）</span></div>
+<div class="tags"><span class="tag tag-puzzle">解谜类</span><span class="tag tag-hot">🔥 HOT</span></div>
 </div></div>
 <div class="stats-bar">
-<div class="stat"><div class="stat-val">2025-07-31</div><div class="stat-label">上线</div></div>
-<div class="stat"><div class="stat-val">v1.4.8</div><div class="stat-label">版本</div></div>
-<div class="stat"><div class="stat-val">Racing · Casual</div><div class="stat-label">类型</div></div>
+<div class="stat stat-highlight"><div class="stat-val">145 天前</div><div class="stat-label">上线</div></div>
+<div class="stat"><div class="stat-val">1.20.0</div><div class="stat-label">版本</div></div>
+<div class="stat"><div class="stat-val">箭头解谜</div><div class="stat-label">类型</div></div>
+<div class="stat"><div class="stat-val">54 语言</div><div class="stat-label">本地化</div></div>
 </div>
-<div class="section-label">🎵 核心玩法</div><p class="gameplay-desc">操控一个箭头穿越几何障碍赛道，核心是<strong>节奏与精准</strong>。80+ 手工设计的关卡，障碍物随关卡推进从简单尖刺演变为旋转陷阱、移动墙壁和节奏锁。玩家可自由选择关卡（非强制顺序解锁），失败后即时重开。玩法类似于 Geometry Dash 但更注重流畅的 momentum 感和几何美学，而非背板记忆。难度曲线平滑——前期轻松上瘾，后期极具挑战。</p>
-<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc"><strong>Web 游戏平台向原生 App 转型</strong>的典型案例。CrazyGames.com 是全球最大网页游戏平台之一（月活 3500 万+），Space Waves 是其将 Web 爆款移植到移动端的旗舰产品。这一策略代表了一个新趋势——<strong>Web 平台作为「创意孵化器 + 免费测款工具」</strong>，验证数据后再投入原生开发。手工设计的 80+ 关卡与行业主流的程序化生成形成差异化，传递「品质感」信号。</p></div>
-<div class="section-label">📊 市场信号</div><p class="gameplay-desc">上线近 1 年积累 5.4 万+ 评分，4.70 分，在超休闲街机赛道属于优等生。开发商 CrazyGames 拥有 10 款 App，2025 年以来明显加速移动端布局（Space Waves、Italian Brainrot Clicker、Ragdoll Archers），显示其正在构建「Web 爆款 → App 变现」的 pipeline。作为平台方亲自下场做游戏，CrazyGames 拥有其他开发者不具备的分发和用户洞察优势。</p>
-<div class="section-label">🎯 策划启示</div>
-<ul class="insights-list"><li><strong>Web 平台作为测款阵地：</strong>中国出海团队可考虑在 CrazyGames、Poki、Coolmath Games 等 Web 平台先上线 HTML5 版本测试核心玩法，用网页端数据（留存、时长、分享率）验证后再投入原生开发。这比直接买量测款成本低一个数量级。</li><li><strong>「关卡手工设计」作为品质信号：</strong>在 AI 生成内容泛滥的当下，明确标注「80+ handcrafted levels」成为一种品质差异化的营销手段。中国产品可在商店描述中强调手工设计元素，建立玩家信任。</li><li><strong>自由关卡选择降低流失：</strong>Space Waves 允许玩家跳过困难关卡，这在高难度街机游戏中是反直觉但有效的留存设计。传统「强制通关」导致大量中段流失，自由选择让不同水平的玩家都能找到舒适区。</li></ul>
-<a class="appstore-link" href="https://apps.apple.com/us/app/space-waves-crazygames/id6748645552?uo=4" target="_blank">📱 App Store 查看</a>
+<div class="dev-info">🏢 <strong>OAKEVER GAMES PTE. LTD.</strong> · 开发商共 <strong>26+</strong> 款游戏（含 5 款爆款：Zen Word 44.8 万评、Wood Block Puzzle 42.9 万评、Jigsawscapes 41.2 万评、Bible Word 70.5 万评、Paint by Number 40.2 万评）</div>
+<div class="section-label">🎯 核心玩法</div><p class="gameplay-desc">清爽的箭头消除解谜玩法——每个箭头指向一个方向，玩家需要按正确顺序依次点击箭头，清除网格中的所有元素。极简的视觉设计减少认知负担，通过渐进难度曲线和"啪"的消除反馈音效提供强烈的"心流"和解压体验。</p>
+<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">减法设计的极致——将排序解谜（Goods Sort 类）的核心满足感提炼为「箭头」这一最简元素，去掉道具、角色、场景等一切冗余，让纯粹的逻辑推理自己说话。54 种语言全覆盖表明其"一个玩法打全球"的发行策略。</p></div>
+<div class="section-label">📊 市场信号</div><p class="gameplay-desc">日均 +911 评价是本期报告中增长最快的产品，132K 总评价量在不到 5 个月内达成。对比同赛道头部产品 Triple Match 3D（35.1 万评 / 1547 天），Amaze GO! 的增速约是其 4 倍。Oakever Games 拥有 5 款 40 万+评价的爆款矩阵，发行能力已验证。v1.20.0 版本号显示高频迭代（平均每 3 天一次更新）。</p>
+<div class="section-label">🧠 策划启示</div>
+<ul class="insights-list"><li>减法设计的普适性：去掉一切不必要的元素（道具、角色、场景），让核心机制自己说话——适用于任何品类的新品立项</li><li>成熟发行商的选品逻辑：Oakever 产品线从文字游戏→拼图→排序，一致「益智减压」定位实现交叉获客，新品冷启动成本极低</li><li>高迭代速度 → 快速验证：145 天达到 v1.20.0 说明团队在激进实验，竞品应关注其 A/B 测试方向和留存优化手段</li></ul>
+<a class="appstore-link" href="https://apps.apple.com/us/app/amaze-go/id6758326278?uo=4" target="_blank" rel="noopener">📱 App Store 查看</a>
 </div>
 
-<div class="trend-card"><h3>📈 今日趋势观察</h3><p>三个信号值得关注：<strong>① 土耳其休闲游戏军团崛起</strong>——Grand Games 为代表的工作室正以「母机制 × N 变体」矩阵策略系统性抢占 Puzzle 品类，其迭代速度和数据沉淀能力对中国出海团队构成直接竞争；<strong>② 街机物理 × 经营融合</strong>——Carnival Tycoon 证明推币机等街机玩法在移动端有巨大潜力，这一交叉领域目前竞争者极少，是蓝海窗口；<strong>③ Web 平台反攻移动</strong>——CrazyGames 等 Web 游戏平台正将浏览器端的爆款验证方法论引入 App Store，其「零成本测款 + 数据驱动移植」模式可能颠覆传统的超休闲买量发行逻辑。中国出海团队应重点关注这三条线索的交叉——用 Web 测款验证「街机物理+经营」融合玩法，快速切入蓝海。</p></div>
+<div class="trend-card"><h3>💡 今日趋势观察</h3><p>本月值得关注三大趋势：(1) <strong>经典 IP 的混合休闲化改造</strong>——Subway Surfers City 代表的「老 IP × 新系统」模式正在崛起，利用已有用户基础降低买量成本；(2) <strong>细分风格品类的崛起</strong>——Rebel Glam 用「叛逆美学」切入换装赛道，证明风格差异化在成熟品类中仍然有效；(3) <strong>极简解谜全球化加速</strong>——Amaze GO! 54 种语言 + 单一核心机制的模式，正在成为解谜品类出海的标配。</p></div>
 </div>
 <footer class="report-footer">
-<p>由 AI Agent 自动调研生成 · 数据来源 App Store API / YouTube · <a href="../">返回首页</a></p>
-<p style="margin-top:4px">Generated: 2026-07-09T12:00:00Z</p>
+<p>由 AI Agent 自动调研生成 · 数据来源 App Store / YouTube / Reddit · <a href="../">← 返回首页</a></p>
+<p style="margin-top:4px">Generated: 2026-07-09 00:00 UTC</p>
 </footer>
 </body>
 </html>
