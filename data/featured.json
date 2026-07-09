@@ -62,6 +62,27 @@
         "2026-07-09"
       ],
       "first_seen": "2026-07-09"
+    },
+    "com.grandgames.catblockjam": {
+      "name": "Block Out! - Color Sort Puzzle",
+      "dates": [
+        "2026-07-09"
+      ],
+      "first_seen": "2026-07-09"
+    },
+    "gp:com.fc.goods.sort.matching.puzzle.triplemaster": {
+      "name": "Goods Puzzle: Sort Challenge™",
+      "dates": [
+        "2026-07-09"
+      ],
+      "first_seen": "2026-07-09"
+    },
+    "gp:where.my.seat.taken.logic.puzzle.brain.mind": {
+      "name": "Where's My Seat?・Logic Puzzles",
+      "dates": [
+        "2026-07-09"
+      ],
+      "first_seen": "2026-07-09"
     }
   },
   "cooldown_days": 30
