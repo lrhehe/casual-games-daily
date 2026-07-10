@@ -104,6 +104,27 @@
         "2026-07-10"
       ],
       "first_seen": "2026-07-10"
+    },
+    "com.flow.cannon-ball": {
+      "name": "Smash Fest!",
+      "dates": [
+        "2026-07-10"
+      ],
+      "first_seen": "2026-07-10"
+    },
+    "gp:com.os.space.force.galaxy.alien": {
+      "name": "Galaxiga: Galaxy Arcade Game",
+      "dates": [
+        "2026-07-10"
+      ],
+      "first_seen": "2026-07-10"
+    },
+    "gp:com.sega.sonicdash": {
+      "name": "Sonic Dash Run",
+      "dates": [
+        "2026-07-10"
+      ],
+      "first_seen": "2026-07-10"
     }
   },
   "cooldown_days": 30
