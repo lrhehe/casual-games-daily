@@ -83,6 +83,27 @@
         "2026-07-09"
       ],
       "first_seen": "2026-07-09"
+    },
+    "com.mergegame.icookie": {
+      "name": "Gossip Harbor®: Merge & Story",
+      "dates": [
+        "2026-07-10"
+      ],
+      "first_seen": "2026-07-10"
+    },
+    "gp:com.bandagames.mpuzzle.gp": {
+      "name": "Magic Jigsaw Puzzles－Games HD",
+      "dates": [
+        "2026-07-10"
+      ],
+      "first_seen": "2026-07-10"
+    },
+    "gp:com.playrix.gardenscapes": {
+      "name": "Gardenscapes",
+      "dates": [
+        "2026-07-10"
+      ],
+      "first_seen": "2026-07-10"
     }
   },
   "cooldown_days": 30
