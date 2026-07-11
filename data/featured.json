@@ -125,6 +125,27 @@
         "2026-07-10"
       ],
       "first_seen": "2026-07-10"
+    },
+    "com.vitastudio.mahjong": {
+      "name": "Vita Mahjong",
+      "dates": [
+        "2026-07-11"
+      ],
+      "first_seen": "2026-07-11"
+    },
+    "gp:com.os.airforce": {
+      "name": "1945 Air Force: Plane Shooter",
+      "dates": [
+        "2026-07-11"
+      ],
+      "first_seen": "2026-07-11"
+    },
+    "gp:com.CheetahGames.Skeeboost": {
+      "name": "SkeeBoost: Ball Arcade Game",
+      "dates": [
+        "2026-07-11"
+      ],
+      "first_seen": "2026-07-11"
     }
   },
   "cooldown_days": 30
