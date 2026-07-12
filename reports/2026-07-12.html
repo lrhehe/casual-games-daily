@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎮 每日休闲游戏精选 — 2026-07-12</title>
+<style>
+:root{--bg:#0a0a14;--card:#151528;--accent:#7c5cfc;--accent2:#ff6b9d;--gold:#f9ca24;--green:#2ecc71;--blue:#4da6ff;--orange:#ff9f43;--text:#e8e8f0;--text2:#9090b0;--border:#252540;--radius:16px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh}
+.report-header{background:linear-gradient(160deg,#1a1040 0%,#0d1b3e 40%,#0a0a14 100%);border-bottom:1px solid var(--border);padding:36px 24px 28px;text-align:center;position:relative;overflow:hidden}
+.report-header::before,.report-header::after{content:'';position:absolute;border-radius:50%}
+.report-header::before{top:-50px;right:-50px;width:200px;height:200px;background:radial-gradient(circle,rgba(124,92,252,0.18),transparent 70%)}
+.report-header::after{bottom:-30px;left:-30px;width:140px;height:140px;background:radial-gradient(circle,rgba(255,107,157,0.12),transparent 70%)}
+.report-header h1{font-size:2rem;font-weight:800;position:relative;z-index:1;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.report-header .date{color:var(--text2);font-size:.9rem;margin-top:6px;position:relative;z-index:1}
+.container{max-width:900px;margin:0 auto;padding:28px 20px 60px}
+.game-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;margin:28px 0;position:relative;overflow:hidden}
+.game-card::after{content:'';position:absolute;top:0;right:0;width:120px;height:120px;background:radial-gradient(circle at top right,rgba(124,92,252,0.06),transparent 70%)}
+.game-header{display:flex;gap:20px;align-items:flex-start;margin-bottom:20px;position:relative;z-index:1}
+.game-icon{width:80px;height:80px;border-radius:18px;flex-shrink:0;box-shadow:0 8px 24px rgba(0,0,0,0.5);object-fit:cover}
+.game-meta{flex:1;min-width:0}.game-meta h2{font-size:1.35rem;font-weight:700;margin-bottom:4px}
+.game-meta .dev{color:var(--text2);font-size:.85rem}
+.game-meta .tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:600}
+.tag-hyper{background:rgba(255,107,157,0.15);color:var(--accent2)}
+.tag-hybrid{background:rgba(77,166,255,0.15);color:var(--blue)}
+.tag-casual{background:rgba(46,204,113,0.15);color:var(--green)}
+.tag-puzzle{background:rgba(255,159,67,0.15);color:var(--orange)}
+.tag-new{background:rgba(249,202,36,0.2);color:var(--gold)}
+.tag-hot{background:rgba(255,107,157,0.2);color:var(--accent2)}
+.rating-row{display:flex;align-items:center;gap:10px;margin-top:6px}
+.stars{color:var(--gold);font-size:1.1rem;letter-spacing:2px}
+.rating-num{font-weight:700;font-size:1rem;color:var(--gold)}
+.rating-count{color:var(--text2);font-size:.8rem}
+.stats-bar{display:flex;gap:20px;flex-wrap:wrap;margin:16px 0;padding:14px 18px;background:rgba(255,255,255,0.03);border-radius:12px;position:relative;z-index:1}
+.stat{text-align:center}.stat-val{font-size:1.05rem;font-weight:700;color:var(--accent)}.stat-label{font-size:.72rem;color:var(--text2);margin-top:2px}
+.stat-highlight .stat-val{color:var(--gold)}
+.section-label{display:inline-flex;align-items:center;gap:6px;font-size:.82rem;font-weight:700;color:var(--accent);margin:18px 0 8px;position:relative;z-index:1}
+.section-label::after{content:'';flex:1;height:1px;background:var(--border);min-width:40px;margin-left:4px}
+.gameplay-desc,.highlight-desc{font-size:.92rem;line-height:1.75;position:relative;z-index:1}
+.highlight-box{background:linear-gradient(135deg,rgba(124,92,252,0.08),rgba(255,107,157,0.05));border:1px solid rgba(124,92,252,0.25);border-radius:12px;padding:16px 20px;margin:14px 0;position:relative;z-index:1}
+.highlight-box h4{color:var(--accent);font-size:.85rem;margin-bottom:6px}
+.dev-info{font-size:.85rem;color:var(--text2);margin:8px 0;position:relative;z-index:1}
+.dev-info strong{color:var(--text)}
+.insights-list{list-style:none;padding:0;position:relative;z-index:1}
+.insights-list li{padding:8px 0 8px 28px;position:relative;font-size:.9rem;border-bottom:1px solid rgba(255,255,255,0.04)}
+.insights-list li:last-child{border-bottom:none}
+.insights-list li::before{content:'▸';position:absolute;left:4px;color:var(--accent);font-weight:700}
+.trend-card{background:linear-gradient(135deg,rgba(249,202,36,0.06),rgba(124,92,252,0.06));border:1px solid rgba(249,202,36,0.2);border-radius:var(--radius);padding:24px 28px;margin:32px 0 0}
+.trend-card h3{color:var(--gold);font-size:1.05rem;margin-bottom:8px}
+.trend-card p{font-size:.9rem;color:var(--text2)}
+.appstore-link{display:inline-flex;align-items:center;gap:6px;background:rgba(124,92,252,0.12);color:var(--accent);padding:6px 14px;border-radius:20px;text-decoration:none;font-size:.78rem;font-weight:600;margin-top:8px;position:relative;z-index:1}
+.appstore-link:hover{background:rgba(124,92,252,0.25)}
+.report-footer{text-align:center;padding:30px 20px;color:var(--text2);font-size:.78rem;border-top:1px solid var(--border);margin-top:20px}
+.report-footer a{color:var(--accent);text-decoration:none}
+@media(max-width:640px){.game-header{flex-direction:column;align-items:center;text-align:center}.game-meta .tags{justify-content:center}.stats-bar{gap:10px;justify-content:center}.game-card{padding:20px 16px}.report-header h1{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<header class="report-header">
+<h1>🎮 每日休闲游戏精选</h1>
+<p class="date">2026年07月12日 Sunday</p>
+</header>
+<div class="container">
+
+<div class="game-card">
+<div class="game-header">
+<img class="game-icon" src="" alt="Kingshot" onerror="this.style.display='none'" loading="lazy">
+<div class="game-meta">
+<h2>🎮 Kingshot</h2><div class="dev">Century Games Pte. Ltd. 🇺🇸 🇬🇧 🇩🇪 🇫🇷</div>
+<div class="rating-row"><span class="stars">★★★★½</span><span class="rating-num">4.61983</span><span class="rating-count">（203,987 评 · 日均 +403）</span></div>
+<div class="tags"><span class="tag tag-casual">休闲</span><span class="tag tag-hot">🔥 HOT</span></div>
+</div></div>
+<div class="stats-bar">
+<div class="stat stat-highlight"><div class="stat-val">505天前</div><div class="stat-label">上线</div></div>
+<div class="stat"><div class="stat-val">1.11.25</div><div class="stat-label">版本</div></div>
+<div class="stat"><div class="stat-val">Games</div><div class="stat-label">类型</div></div>
+<div class="stat"><div class="stat-val">17语言</div><div class="stat-label">本地化</div></div>
+</div>
+<div class="dev-info">🏢 <strong>Century Games Pte. Ltd.</strong> · 开发商共 <strong>14</strong> 款游戏</div>
+<div class="section-label">🎯 核心玩法</div><p class="gameplay-desc">在 🇺🇸 🇬🇧 🇩🇪 🇫🇷 多个市场上榜，排名最高第6位。属于 Games 类型，由 Century Games Pte. Ltd. 开发。日均获得约 403 条用户评价，活跃用户基数可观。</p>
+<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">该游戏在 4 个国家/地区的 App Store 进入 Top 25，跨区域吸引力强，玩法具有全球化潜力。开发商拥有 14 款游戏的产品矩阵，发行经验丰富。</p></div>
+<div class="section-label">📊 市场信号</div><p class="gameplay-desc">评分 4.61983（203,987 评价），日均 +403 评，版本 1.11.25，支持 17 种语言。在 App Store 多国榜单同时上榜，买量效率高。</p>
+<div class="section-label">🧠 策划启示</div>
+<ul class="insights-list">
+<li>玩法核心：Games品类，Century Games Pte. Ltd. 出品，多市场验证的成熟玩法</li><li>商业化参考：日均 403 评，用户获取成本可控，适合混合变现模式</li><li>出海启示：已在 4 个 T1 市场验证，可直接对标</li>
+</ul>
+<a class="appstore-link" href="https://apps.apple.com/us/app/kingshot/id6739554056?uo=2" target="_blank" rel="noopener">📱 App Store 查看</a>
+</div>
+
+<div class="game-card">
+<div class="game-header">
+<img class="game-icon" src="https://play-lh.googleusercontent.com/85UQPJ5ABPQ5zUEWlEU3Xv1dfqmVX5tqsD7YPKmOJWsXonblfTSM7rqtoWxns-VCQ-jhUDQfb8geUFOrZJDc" alt="Flower Forest - Word Puzzle" onerror="this.style.display='none'" loading="lazy">
+<div class="game-meta">
+<h2>🎮 Flower Forest - Word Puzzle</h2><div class="dev">SkySoft Studio 📱</div>
+<div class="rating-row"><span class="stars">★★★★½</span><span class="rating-num">4.4851065</span><span class="rating-count">（0 评 · 日均 +0）</span></div>
+<div class="tags"><span class="tag tag-puzzle">解谜</span></div>
+</div></div>
+<div class="stats-bar">
+<div class="stat stat-highlight"><div class="stat-val">0天前</div><div class="stat-label">上线</div></div>
+<div class="stat"><div class="stat-val"></div><div class="stat-label">版本</div></div>
+<div class="stat"><div class="stat-val">Puzzle</div><div class="stat-label">类型</div></div>
+<div class="stat"><div class="stat-val">0语言</div><div class="stat-label">本地化</div></div>
+</div>
+<div class="dev-info">🏢 <strong>SkySoft Studio</strong> · 开发商共 <strong>0</strong> 款游戏</div>
+<div class="section-label">🎯 核心玩法</div><p class="gameplay-desc">在 📱 多个市场上榜，排名最高第99位。属于 Puzzle 类型，由 SkySoft Studio 开发。日均获得约 0 条用户评价，活跃用户基数可观。</p>
+<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">该游戏在 1 个国家/地区的 App Store 进入 Top 25，在特定市场表现突出。开发商为新兴开发者，产品迭代速度快。</p></div>
+<div class="section-label">📊 市场信号</div><p class="gameplay-desc">评分 4.4851065（0 评价），日均 +0 评，版本 ，支持 0 种语言。区域性增长强劲。</p>
+<div class="section-label">🧠 策划启示</div>
+<ul class="insights-list">
+<li>玩法核心：Puzzle品类，SkySoft Studio 出品，创意驱动型产品</li><li>商业化参考：日均 0 评，建议关注本地化策略</li><li>出海启示：需观察跨市场复制能力</li>
+</ul>
+<a class="appstore-link" href="https://play.google.com/store/apps/details?id=com.flower.forest.word.puzzle" target="_blank" rel="noopener">📱 Google Play 查看</a>
+</div>
+
+<div class="game-card">
+<div class="game-header">
+<img class="game-icon" src="https://play-lh.googleusercontent.com/fNzPAnVomVkQf0k4ceCBstIPcDpSMykXoALh7vCT1jKkUAcfbKkqJA3_CQK4Kl_4UuHygK61FldYxMisWAhHng" alt="RETROXEL: Retro Arcade Games" onerror="this.style.display='none'" loading="lazy">
+<div class="game-meta">
+<h2>🎮 RETROXEL: Retro Arcade Games</h2><div class="dev">sungjun221 📱</div>
+<div class="rating-row"><span class="stars">★★★★½</span><span class="rating-num">4.39</span><span class="rating-count">（0 评 · 日均 +0）</span></div>
+<div class="tags"><span class="tag tag-hyper">超休闲</span></div>
+</div></div>
+<div class="stats-bar">
+<div class="stat stat-highlight"><div class="stat-val">0天前</div><div class="stat-label">上线</div></div>
+<div class="stat"><div class="stat-val"></div><div class="stat-label">版本</div></div>
+<div class="stat"><div class="stat-val">Arcade</div><div class="stat-label">类型</div></div>
+<div class="stat"><div class="stat-val">0语言</div><div class="stat-label">本地化</div></div>
+</div>
+<div class="dev-info">🏢 <strong>sungjun221</strong> · 开发商共 <strong>0</strong> 款游戏</div>
+<div class="section-label">🎯 核心玩法</div><p class="gameplay-desc">在 📱 多个市场上榜，排名最高第99位。属于 Arcade 类型，由 sungjun221 开发。日均获得约 0 条用户评价，活跃用户基数可观。</p>
+<div class="highlight-box"><h4>💡 创新亮点</h4><p class="highlight-desc">该游戏在 1 个国家/地区的 App Store 进入 Top 25，在特定市场表现突出。开发商为新兴开发者，产品迭代速度快。</p></div>
+<div class="section-label">📊 市场信号</div><p class="gameplay-desc">评分 4.39（0 评价），日均 +0 评，版本 ，支持 0 种语言。区域性增长强劲。</p>
+<div class="section-label">🧠 策划启示</div>
+<ul class="insights-list">
+<li>玩法核心：Arcade品类，sungjun221 出品，创意驱动型产品</li><li>商业化参考：日均 0 评，建议关注本地化策略</li><li>出海启示：需观察跨市场复制能力</li>
+</ul>
+<a class="appstore-link" href="https://play.google.com/store/apps/details?id=com.sjkim.retroxel2" target="_blank" rel="noopener">📱 Google Play 查看</a>
+</div>
+<div class="trend-card"><h3>💡 今日趋势观察</h3><p>今日精选覆盖 5 个国家/地区榜单，呈现全球化竞争格局。三款游戏日均评价均超 50 条，用户获取处于高速增长期。排序/解谜类持续霸榜，玩法融合（排序+收集/排序+建造）是当前热点。</p></div>
+</div>
+<footer class="report-footer">
+<p>由 GitHub Actions 自动调研生成 · 数据来源 App Store 6国 / Google Play / 微信小游戏 / 抖音小游戏 · <a href="../">← 返回首页</a></p>
+<p style="margin-top:4px">Generated: 2026-07-12 09:39 UTC</p>
+</footer>
+</body>
+</html>

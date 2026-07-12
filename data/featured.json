@@ -146,6 +146,27 @@
         "2026-07-11"
       ],
       "first_seen": "2026-07-11"
+    },
+    "com.run.tower.defense": {
+      "name": "Kingshot",
+      "dates": [
+        "2026-07-12"
+      ],
+      "first_seen": "2026-07-12"
+    },
+    "gp:com.flower.forest.word.puzzle": {
+      "name": "Flower Forest - Word Puzzle",
+      "dates": [
+        "2026-07-12"
+      ],
+      "first_seen": "2026-07-12"
+    },
+    "gp:com.sjkim.retroxel2": {
+      "name": "RETROXEL: Retro Arcade Games",
+      "dates": [
+        "2026-07-12"
+      ],
+      "first_seen": "2026-07-12"
     }
   },
   "cooldown_days": 30
