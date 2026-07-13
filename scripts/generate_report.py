@@ -110,31 +110,58 @@ def fetch_itunes_details(games):
     
     for game in games:
         bid = game["bundleId"]
+        name = game.get("name", "")
+        
+        def set_game_details(r):
+            game["rating"] = float(r.get("averageUserRating", 0))
+            game["ratingCount"] = int(r.get("userRatingCount", 0))
+            game["version"] = r.get("version", "")
+            game["artistId"] = int(r.get("artistId", 0))
+            game["genres"] = r.get("genres", [])
+            game["langs"] = r.get("languageCodesISO2A", [])
+            rd = r.get("releaseDate", "")
+            if rd:
+                release_dt = datetime.fromisoformat(rd.replace("Z", "+00:00"))
+                days_ago = (datetime.now(TZ).replace(tzinfo=None) - release_dt.replace(tzinfo=None)).days
+                game["daysSinceRelease"] = max(days_ago, 1)
+            else:
+                game["daysSinceRelease"] = 365
+            game["dailyReviews"] = game.get("ratingCount", 0) // game.get("daysSinceRelease", 365)
+            return True
+        
+        success = False
         try:
+            # Try 1: Lookup by bundleId
             url = f"https://itunes.apple.com/lookup?bundleId={bid}&country=US"
             resp = requests.get(url, timeout=10)
             data = resp.json()
-            
             if data.get("resultCount", 0) > 0:
-                r = data["results"][0]
-                game["rating"] = float(r.get("averageUserRating", 0))
-                game["ratingCount"] = int(r.get("userRatingCount", 0))
-                game["version"] = r.get("version", "")
-                game["artistId"] = int(r.get("artistId", 0))
-                game["genres"] = r.get("genres", [])
-                game["langs"] = r.get("languageCodesISO2A", [])
-                
-                # 计算上线天数
-                rd = r.get("releaseDate", "")
-                if rd:
-                    release_dt = datetime.fromisoformat(rd.replace("Z", "+00:00"))
-                    days_ago = (datetime.now(TZ).replace(tzinfo=None) - release_dt.replace(tzinfo=None)).days
-                    game["daysSinceRelease"] = max(days_ago, 1)
-                    game["dailyReviews"] = game["ratingCount"] // game["daysSinceRelease"]
+                success = set_game_details(data["results"][0])
         except Exception as e:
-            print(f"  {bid}: detail fetch failed - {e}")
+            print(f"  {bid}: bundleId lookup failed - {e}")
         
-        # Rate limit
+        if not success and name:
+            try:
+                # Try 2: Search by name
+                import urllib.parse
+                search_url = f"https://itunes.apple.com/search?term={urllib.parse.quote(name)}&entity=software&limit=3&country=US"
+                sresp = requests.get(search_url, timeout=10)
+                sdata = sresp.json()
+                if sdata.get("resultCount", 0) > 0:
+                    # Pick the best match (closest name)
+                    best = sdata["results"][0]
+                    for candidate in sdata["results"]:
+                        if candidate.get("trackName","").lower() == name.lower():
+                            best = candidate
+                            break
+                    success = set_game_details(best)
+                    print(f"  {bid}: fallback search used for '{name}'")
+            except Exception as e:
+                print(f"  {bid}: search fallback failed - {e}")
+        
+        if not success:
+            print(f"  {bid}: all lookups failed for '{name}'")
+        
         import time; time.sleep(0.1)
     
     return games
