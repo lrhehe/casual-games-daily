@@ -628,9 +628,19 @@ def update_index(selected_games, today_str):
     
     if INDEX_FILE.exists():
         html = INDEX_FILE.read_text()
-        html = html.replace('<div class="report-list">', f'<div class="report-list">\n        {entry}')
+        today_pattern = f'href="reports/{today_str}.html"'
+        if today_pattern in html:
+            # Replace existing entry for today
+            html = re.sub(
+                r'<a class="report-link" href="reports/' + today_str + r'\.html">.*?</a>',
+                entry, html, flags=re.DOTALL
+            )
+            print(f"[Index] Replaced existing entry for {today_str}")
+        else:
+            # Add new entry
+            html = html.replace('<div class="report-list">', f'<div class="report-list">\n        {entry}')
+            print(f"[Index] Added new entry: {preview}")
         INDEX_FILE.write_text(html)
-        print(f"[Index] Updated with: {preview}")
 
 
 def generate_trend(selected_games):
