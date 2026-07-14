@@ -230,6 +230,13 @@
         "2026-07-13"
       ],
       "first_seen": "2026-07-13"
+    },
+    "jp.co.goodroid.hyper.busflow": {
+      "name": "Bus Traffic Fever!",
+      "dates": [
+        "2026-07-14"
+      ],
+      "first_seen": "2026-07-14"
     }
   },
   "cooldown_days": 30
