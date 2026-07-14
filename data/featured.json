@@ -237,6 +237,13 @@
         "2026-07-14"
       ],
       "first_seen": "2026-07-14"
+    },
+    "com.ecffri.arrows": {
+      "name": "Arrows – Puzzle Escape",
+      "dates": [
+        "2026-07-14"
+      ],
+      "first_seen": "2026-07-14"
     }
   },
   "cooldown_days": 30
