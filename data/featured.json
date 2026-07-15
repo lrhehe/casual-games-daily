@@ -265,6 +265,20 @@
         "2026-07-15"
       ],
       "first_seen": "2026-07-15"
+    },
+    "com.hollywood.merge": {
+      "name": "Hollywood Merge",
+      "dates": [
+        "2026-07-15"
+      ],
+      "first_seen": "2026-07-15"
+    },
+    "gp:com.mojang.minecraftpe": {
+      "name": "Minecraft: Dream it, Build it!",
+      "dates": [
+        "2026-07-15"
+      ],
+      "first_seen": "2026-07-15"
     }
   },
   "cooldown_days": 30
