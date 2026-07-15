@@ -244,6 +244,27 @@
         "2026-07-14"
       ],
       "first_seen": "2026-07-14"
+    },
+    "com.roblox.robloxmobile": {
+      "name": "Roblox",
+      "dates": [
+        "2026-07-15"
+      ],
+      "first_seen": "2026-07-15"
+    },
+    "gp:jigsaw.solitaire.match.games.free": {
+      "name": "Jigsaw Drop: Solitaire Puzzle",
+      "dates": [
+        "2026-07-15"
+      ],
+      "first_seen": "2026-07-15"
+    },
+    "gp:com.rollerbush.games": {
+      "name": "The Arcade · Game Hub Launcher",
+      "dates": [
+        "2026-07-15"
+      ],
+      "first_seen": "2026-07-15"
     }
   },
   "cooldown_days": 30
