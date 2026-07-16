@@ -279,6 +279,27 @@
         "2026-07-15"
       ],
       "first_seen": "2026-07-15"
+    },
+    "jp.co.bandainamcoent.BNEI0442": {
+      "name": "DIGIMON UP",
+      "dates": [
+        "2026-07-16"
+      ],
+      "first_seen": "2026-07-16"
+    },
+    "gp:com.oakever.meowdoku": {
+      "name": "Meowdoku: Brain Puzzle Games",
+      "dates": [
+        "2026-07-16"
+      ],
+      "first_seen": "2026-07-16"
+    },
+    "gp:com.sjkim.retrodyssey": {
+      "name": "RETRODY : Retro Arcade Games",
+      "dates": [
+        "2026-07-16"
+      ],
+      "first_seen": "2026-07-16"
     }
   },
   "cooldown_days": 30
