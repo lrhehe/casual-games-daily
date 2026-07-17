@@ -300,6 +300,27 @@
         "2026-07-16"
       ],
       "first_seen": "2026-07-16"
+    },
+    "com.vaultystudios.eightytwoand0": {
+      "name": "82-0.com",
+      "dates": [
+        "2026-07-17"
+      ],
+      "first_seen": "2026-07-17"
+    },
+    "gp:com.FDGEntertainment.redball4.gp": {
+      "name": "Red Ball 4",
+      "dates": [
+        "2026-07-17"
+      ],
+      "first_seen": "2026-07-17"
+    },
+    "gp:com.dotemu.rtype2": {
+      "name": "R-TYPE II",
+      "dates": [
+        "2026-07-17"
+      ],
+      "first_seen": "2026-07-17"
     }
   },
   "cooldown_days": 30
