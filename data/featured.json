@@ -328,6 +328,27 @@
         "2026-07-18"
       ],
       "first_seen": "2026-07-18"
+    },
+    "com.vigafun.funfinity.foodhunt": {
+      "name": "Food Hunt: Pixel Puzzle",
+      "dates": [
+        "2026-07-19"
+      ],
+      "first_seen": "2026-07-19"
+    },
+    "gp:bubbleshooter.orig": {
+      "name": "Bubble Shooter - Classic Pop",
+      "dates": [
+        "2026-07-19"
+      ],
+      "first_seen": "2026-07-19"
+    },
+    "gp:com.king.candycrushsaga": {
+      "name": "Candy Crush Saga",
+      "dates": [
+        "2026-07-19"
+      ],
+      "first_seen": "2026-07-19"
     }
   },
   "cooldown_days": 30
