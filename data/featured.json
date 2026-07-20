@@ -349,6 +349,20 @@
         "2026-07-19"
       ],
       "first_seen": "2026-07-19"
+    },
+    "com.fatmerge.global": {
+      "name": "Tasty Travels: Merge Game",
+      "dates": [
+        "2026-07-20"
+      ],
+      "first_seen": "2026-07-20"
+    },
+    "gp:com.vincentb.MobControl": {
+      "name": "Mob Control",
+      "dates": [
+        "2026-07-20"
+      ],
+      "first_seen": "2026-07-20"
     }
   },
   "cooldown_days": 30
