@@ -363,6 +363,13 @@
         "2026-07-20"
       ],
       "first_seen": "2026-07-20"
+    },
+    "io.randomco.travel": {
+      "name": "Travel Town - Merge Adventure",
+      "dates": [
+        "2026-07-21"
+      ],
+      "first_seen": "2026-07-21"
     }
   },
   "cooldown_days": 30
