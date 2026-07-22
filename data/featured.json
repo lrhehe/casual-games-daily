@@ -370,6 +370,13 @@
         "2026-07-21"
       ],
       "first_seen": "2026-07-21"
+    },
+    "com.red.brilliantsort.ios": {
+      "name": "Jewel Coloring",
+      "dates": [
+        "2026-07-22"
+      ],
+      "first_seen": "2026-07-22"
     }
   },
   "cooldown_days": 30
