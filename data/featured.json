@@ -377,6 +377,13 @@
         "2026-07-22"
       ],
       "first_seen": "2026-07-22"
+    },
+    "game.qualiarts.hololive.dreams.com": {
+      "name": "hololive Dreams",
+      "dates": [
+        "2026-07-23"
+      ],
+      "first_seen": "2026-07-23"
     }
   },
   "cooldown_days": 30
