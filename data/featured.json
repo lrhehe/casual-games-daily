@@ -384,6 +384,20 @@
         "2026-07-23"
       ],
       "first_seen": "2026-07-23"
+    },
+    "net.lightcon.windidle": {
+      "name": "윈드러너 키우기",
+      "dates": [
+        "2026-07-24"
+      ],
+      "first_seen": "2026-07-24"
+    },
+    "gp:com.fgol.HungrySharkEvolution": {
+      "name": "Hungry Shark Evolution",
+      "dates": [
+        "2026-07-24"
+      ],
+      "first_seen": "2026-07-24"
     }
   },
   "cooldown_days": 30
