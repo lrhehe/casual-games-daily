@@ -398,6 +398,20 @@
         "2026-07-24"
       ],
       "first_seen": "2026-07-24"
+    },
+    "com.epicgames.FortniteGame": {
+      "name": "Fortnite",
+      "dates": [
+        "2026-07-25"
+      ],
+      "first_seen": "2026-07-25"
+    },
+    "gp:com.playgendary.sportmasters": {
+      "name": "Bouncemasters: Penguin Games",
+      "dates": [
+        "2026-07-25"
+      ],
+      "first_seen": "2026-07-25"
     }
   },
   "cooldown_days": 30
