@@ -419,6 +419,20 @@
         "2026-07-26"
       ],
       "first_seen": "2026-07-26"
+    },
+    "com.gartic.garticphone": {
+      "name": "Gartic Phone",
+      "dates": [
+        "2026-07-27"
+      ],
+      "first_seen": "2026-07-27"
+    },
+    "gp:com.gamovation.tileclub": {
+      "name": "Tile Club - Match Puzzle Games",
+      "dates": [
+        "2026-07-27"
+      ],
+      "first_seen": "2026-07-27"
     }
   },
   "cooldown_days": 30
