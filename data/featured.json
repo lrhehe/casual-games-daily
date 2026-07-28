@@ -433,6 +433,13 @@
         "2026-07-27"
       ],
       "first_seen": "2026-07-27"
+    },
+    "jp.konami.pesactionmobile": {
+      "name": "eFootball™",
+      "dates": [
+        "2026-07-28"
+      ],
+      "first_seen": "2026-07-28"
     }
   },
   "cooldown_days": 30
