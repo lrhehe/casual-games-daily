@@ -440,6 +440,27 @@
         "2026-07-28"
       ],
       "first_seen": "2026-07-28"
+    },
+    "com.us.yzlm.ios": {
+      "name": "Whoa Adventure",
+      "dates": [
+        "2026-07-29"
+      ],
+      "first_seen": "2026-07-29"
+    },
+    "gp:com.wildspike.wormszone": {
+      "name": "Worms Zone .io - Hungry Snake",
+      "dates": [
+        "2026-07-29"
+      ],
+      "first_seen": "2026-07-29"
+    },
+    "gp:com.robtopx.geometryjumplite": {
+      "name": "Geometry Dash Lite",
+      "dates": [
+        "2026-07-29"
+      ],
+      "first_seen": "2026-07-29"
     }
   },
   "cooldown_days": 30
