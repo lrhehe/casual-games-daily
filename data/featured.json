@@ -461,6 +461,13 @@
         "2026-07-29"
       ],
       "first_seen": "2026-07-29"
+    },
+    "com.devsisters.cc": {
+      "name": "CookieRun: Crumble - Idle RPG",
+      "dates": [
+        "2026-07-30"
+      ],
+      "first_seen": "2026-07-30"
     }
   },
   "cooldown_days": 30
