@@ -468,6 +468,20 @@
         "2026-07-30"
       ],
       "first_seen": "2026-07-30"
+    },
+    "org.unity.jamms.giethoorn": {
+      "name": "脱出ゲーム アムステルダム",
+      "dates": [
+        "2026-07-31"
+      ],
+      "first_seen": "2026-07-31"
+    },
+    "gp:com.imangi.templerun2": {
+      "name": "Temple Run 2",
+      "dates": [
+        "2026-07-31"
+      ],
+      "first_seen": "2026-07-31"
     }
   },
   "cooldown_days": 30
