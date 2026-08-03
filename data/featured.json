@@ -496,6 +496,13 @@
         "2026-08-02"
       ],
       "first_seen": "2026-08-02"
+    },
+    "com.gof.global": {
+      "name": "Whiteout Survival",
+      "dates": [
+        "2026-08-03"
+      ],
+      "first_seen": "2026-08-03"
     }
   },
   "cooldown_days": 30
