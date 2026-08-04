@@ -503,6 +503,13 @@
         "2026-08-03"
       ],
       "first_seen": "2026-08-03"
+    },
+    "com.superplanet.odyssey": {
+      "name": "던전 견문록",
+      "dates": [
+        "2026-08-04"
+      ],
+      "first_seen": "2026-08-04"
     }
   },
   "cooldown_days": 30
