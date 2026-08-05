@@ -510,6 +510,13 @@
         "2026-08-04"
       ],
       "first_seen": "2026-08-04"
+    },
+    "com.kiloo.subwaysurfers": {
+      "name": "Subway Surfers",
+      "dates": [
+        "2026-08-05"
+      ],
+      "first_seen": "2026-08-05"
     }
   },
   "cooldown_days": 30
