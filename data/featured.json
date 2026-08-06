@@ -517,6 +517,27 @@
         "2026-08-05"
       ],
       "first_seen": "2026-08-05"
+    },
+    "com.netease.dunkcdjp": {
+      "name": "NBAダンクシティ",
+      "dates": [
+        "2026-08-06"
+      ],
+      "first_seen": "2026-08-06"
+    },
+    "gp:com.easybrain.arrow.puzzle.game": {
+      "name": "Arrow Puzzle: Tap Puzzle Games",
+      "dates": [
+        "2026-08-06"
+      ],
+      "first_seen": "2026-08-06"
+    },
+    "gp:com.cyphergames.royalsmash": {
+      "name": "Royal Smash! - Physics Puzzle",
+      "dates": [
+        "2026-08-06"
+      ],
+      "first_seen": "2026-08-06"
     }
   },
   "cooldown_days": 30
