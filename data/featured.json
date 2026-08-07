@@ -10,21 +10,24 @@
     "gp:com.dreamgames.royalmatch": {
       "name": "Royal Match",
       "dates": [
-        "2026-07-08"
+        "2026-07-08",
+        "2026-08-07"
       ],
       "first_seen": "2026-07-08"
     },
     "gp:com.moonactive.coinmaster": {
       "name": "Coin Master",
       "dates": [
-        "2026-07-08"
+        "2026-07-08",
+        "2026-08-07"
       ],
       "first_seen": "2026-07-08"
     },
     "com.oakever.meowdoku": {
       "name": "Meowdoku!",
       "dates": [
-        "2026-07-08"
+        "2026-07-08",
+        "2026-08-07"
       ],
       "first_seen": "2026-07-08"
     },
