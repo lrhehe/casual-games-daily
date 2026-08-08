@@ -34,14 +34,16 @@
     "gp:com.playrix.fishdomdd.gplay": {
       "name": "Fishdom",
       "dates": [
-        "2026-07-08"
+        "2026-07-08",
+        "2026-08-08"
       ],
       "first_seen": "2026-07-08"
     },
     "gp:com.dreamgames.royalkingdom": {
       "name": "Royal Kingdom",
       "dates": [
-        "2026-07-08"
+        "2026-07-08",
+        "2026-08-08"
       ],
       "first_seen": "2026-07-08"
     },
@@ -541,6 +543,13 @@
         "2026-08-06"
       ],
       "first_seen": "2026-08-06"
+    },
+    "com.klab.heroaca.united.survival": {
+      "name": "僕のヒーローアカデミアUNITED SURVIVAL",
+      "dates": [
+        "2026-08-08"
+      ],
+      "first_seen": "2026-08-08"
     }
   },
   "cooldown_days": 30
