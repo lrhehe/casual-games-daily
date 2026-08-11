@@ -81,7 +81,8 @@
     "gp:com.fc.goods.sort.matching.puzzle.triplemaster": {
       "name": "Goods Puzzle: Sort Challenge™",
       "dates": [
-        "2026-07-09"
+        "2026-07-09",
+        "2026-08-11"
       ],
       "first_seen": "2026-07-09"
     },
@@ -139,7 +140,8 @@
     "com.vitastudio.mahjong": {
       "name": "Vita Mahjong",
       "dates": [
-        "2026-07-11"
+        "2026-07-11",
+        "2026-08-11"
       ],
       "first_seen": "2026-07-11"
     },
@@ -562,6 +564,13 @@
         "2026-08-09"
       ],
       "first_seen": "2026-08-09"
+    },
+    "gp:com.vigafun.funfinity.foodhunt": {
+      "name": "Food Hunt: Pixel Puzzle",
+      "dates": [
+        "2026-08-11"
+      ],
+      "first_seen": "2026-08-11"
     }
   },
   "cooldown_days": 30
