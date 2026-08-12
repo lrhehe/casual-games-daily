@@ -126,14 +126,16 @@
     "gp:com.os.space.force.galaxy.alien": {
       "name": "Galaxiga: Galaxy Arcade Game",
       "dates": [
-        "2026-07-10"
+        "2026-07-10",
+        "2026-08-12"
       ],
       "first_seen": "2026-07-10"
     },
     "gp:com.sega.sonicdash": {
       "name": "Sonic Dash Run",
       "dates": [
-        "2026-07-10"
+        "2026-07-10",
+        "2026-08-12"
       ],
       "first_seen": "2026-07-10"
     },
@@ -225,7 +227,8 @@
     "com.blockpuzzle.us.ios": {
       "name": "Block Blast！",
       "dates": [
-        "2026-07-13"
+        "2026-07-13",
+        "2026-08-12"
       ],
       "first_seen": "2026-07-13"
     },
