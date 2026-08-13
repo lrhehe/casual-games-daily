@@ -89,7 +89,8 @@
     "gp:where.my.seat.taken.logic.puzzle.brain.mind": {
       "name": "Where's My Seat?・Logic Puzzles",
       "dates": [
-        "2026-07-09"
+        "2026-07-09",
+        "2026-08-13"
       ],
       "first_seen": "2026-07-09"
     },
@@ -150,7 +151,8 @@
     "gp:com.os.airforce": {
       "name": "1945 Air Force: Plane Shooter",
       "dates": [
-        "2026-07-11"
+        "2026-07-11",
+        "2026-08-13"
       ],
       "first_seen": "2026-07-11"
     },
@@ -249,7 +251,8 @@
     "jp.co.goodroid.hyper.busflow": {
       "name": "Bus Traffic Fever!",
       "dates": [
-        "2026-07-14"
+        "2026-07-14",
+        "2026-08-13"
       ],
       "first_seen": "2026-07-14"
     },
