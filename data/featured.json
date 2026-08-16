@@ -3,7 +3,8 @@
     "jp.pokemon.pokemonchampions": {
       "name": "Pokémon Champions",
       "dates": [
-        "2026-07-08"
+        "2026-07-08",
+        "2026-08-16"
       ],
       "first_seen": "2026-07-08"
     },
@@ -588,6 +589,20 @@
         "2026-08-15"
       ],
       "first_seen": "2026-08-15"
+    },
+    "gp:net.peakgames.match": {
+      "name": "Match Factory!",
+      "dates": [
+        "2026-08-16"
+      ],
+      "first_seen": "2026-08-16"
+    },
+    "gp:com.tripledot.triple.tile.match.pair.game.three.master.object": {
+      "name": "Triple Tile: Match Puzzle Game",
+      "dates": [
+        "2026-08-16"
+      ],
+      "first_seen": "2026-08-16"
     }
   },
   "cooldown_days": 30
