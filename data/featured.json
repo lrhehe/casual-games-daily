@@ -160,7 +160,8 @@
     "gp:com.CheetahGames.Skeeboost": {
       "name": "SkeeBoost: Ball Arcade Game",
       "dates": [
-        "2026-07-11"
+        "2026-07-11",
+        "2026-08-17"
       ],
       "first_seen": "2026-07-11"
     },
@@ -603,6 +604,20 @@
         "2026-08-16"
       ],
       "first_seen": "2026-08-16"
+    },
+    "jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle": {
+      "name": "CubeAway - 3DPuzzle",
+      "dates": [
+        "2026-08-17"
+      ],
+      "first_seen": "2026-08-17"
+    },
+    "gp:net.countrymania.brick": {
+      "name": "Brick Mania: Fun Arcade Game",
+      "dates": [
+        "2026-08-17"
+      ],
+      "first_seen": "2026-08-17"
     }
   },
   "cooldown_days": 30
