@@ -206,7 +206,8 @@
     "gp:com.fc.nes.mame": {
       "name": "Arcade Games",
       "dates": [
-        "2026-07-13"
+        "2026-07-13",
+        "2026-08-18"
       ],
       "first_seen": "2026-07-13"
     },
@@ -618,6 +619,13 @@
         "2026-08-17"
       ],
       "first_seen": "2026-08-17"
+    },
+    "com.plaium.tmm": {
+      "name": "티니핑 매직 매치",
+      "dates": [
+        "2026-08-18"
+      ],
+      "first_seen": "2026-08-18"
     }
   },
   "cooldown_days": 30
