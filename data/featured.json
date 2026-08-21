@@ -380,7 +380,8 @@
     "com.fatmerge.global": {
       "name": "Tasty Travels: Merge Game",
       "dates": [
-        "2026-07-20"
+        "2026-07-20",
+        "2026-08-21"
       ],
       "first_seen": "2026-07-20"
     },
@@ -628,6 +629,20 @@
         "2026-08-18"
       ],
       "first_seen": "2026-08-18"
+    },
+    "gp:com.easybrain.block.puzzle.games": {
+      "name": "Blockudoku®: Block Puzzle Game",
+      "dates": [
+        "2026-08-21"
+      ],
+      "first_seen": "2026-08-21"
+    },
+    "gp:com.oakever.jigsawcard": {
+      "name": "Jigsawcard Solitaire Puzzle",
+      "dates": [
+        "2026-08-21"
+      ],
+      "first_seen": "2026-08-21"
     }
   },
   "cooldown_days": 30
