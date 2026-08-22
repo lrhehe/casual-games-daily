@@ -273,7 +273,8 @@
     "com.roblox.robloxmobile": {
       "name": "Roblox",
       "dates": [
-        "2026-07-15"
+        "2026-07-15",
+        "2026-08-22"
       ],
       "first_seen": "2026-07-15"
     },
@@ -643,6 +644,20 @@
         "2026-08-21"
       ],
       "first_seen": "2026-08-21"
+    },
+    "gp:com.os.wars.squadron": {
+      "name": "1942 - Classic shooting games",
+      "dates": [
+        "2026-08-22"
+      ],
+      "first_seen": "2026-08-22"
+    },
+    "gp:com.gimica.blockbuster": {
+      "name": "Blockbuster: Arcade",
+      "dates": [
+        "2026-08-22"
+      ],
+      "first_seen": "2026-08-22"
     }
   },
   "cooldown_days": 30
