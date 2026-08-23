@@ -389,7 +389,8 @@
     "gp:com.vincentb.MobControl": {
       "name": "Mob Control",
       "dates": [
-        "2026-07-20"
+        "2026-07-20",
+        "2026-08-23"
       ],
       "first_seen": "2026-07-20"
     },
@@ -658,6 +659,20 @@
         "2026-08-22"
       ],
       "first_seen": "2026-08-22"
+    },
+    "com.playrix.township-ios": {
+      "name": "Township",
+      "dates": [
+        "2026-08-23"
+      ],
+      "first_seen": "2026-08-23"
+    },
+    "gp:com.fungames.blockcraft": {
+      "name": "Block Craft 3D：Building Game",
+      "dates": [
+        "2026-08-23"
+      ],
+      "first_seen": "2026-08-23"
     }
   },
   "cooldown_days": 30
