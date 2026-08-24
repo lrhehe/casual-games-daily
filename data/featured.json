@@ -432,7 +432,8 @@
     "com.epicgames.FortniteGame": {
       "name": "Fortnite",
       "dates": [
-        "2026-07-25"
+        "2026-07-25",
+        "2026-08-24"
       ],
       "first_seen": "2026-07-25"
     },
@@ -673,6 +674,20 @@
         "2026-08-23"
       ],
       "first_seen": "2026-08-23"
+    },
+    "gp:com.inspiredsquare.jupiter": {
+      "name": "2248 - Numbers Game 2048",
+      "dates": [
+        "2026-08-24"
+      ],
+      "first_seen": "2026-08-24"
+    },
+    "gp:com.easybrain.art.puzzle": {
+      "name": "Art Puzzle - Puzzle Games",
+      "dates": [
+        "2026-08-24"
+      ],
+      "first_seen": "2026-08-24"
     }
   },
   "cooldown_days": 30
