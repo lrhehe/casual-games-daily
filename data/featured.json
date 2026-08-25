@@ -688,6 +688,20 @@
         "2026-08-24"
       ],
       "first_seen": "2026-08-24"
+    },
+    "com.topking.ios": {
+      "name": "トップロード",
+      "dates": [
+        "2026-08-25"
+      ],
+      "first_seen": "2026-08-25"
+    },
+    "gp:eu.bandainamcoent.galagawars": {
+      "name": "Galaga Wars",
+      "dates": [
+        "2026-08-25"
+      ],
+      "first_seen": "2026-08-25"
     }
   },
   "cooldown_days": 30
