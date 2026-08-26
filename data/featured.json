@@ -461,7 +461,8 @@
     "gp:com.gamovation.tileclub": {
       "name": "Tile Club - Match Puzzle Games",
       "dates": [
-        "2026-07-27"
+        "2026-07-27",
+        "2026-08-26"
       ],
       "first_seen": "2026-07-27"
     },
@@ -702,6 +703,20 @@
         "2026-08-25"
       ],
       "first_seen": "2026-08-25"
+    },
+    "jigsaw.solitaire.match.games.free": {
+      "name": "Jigsaw Drop: Solitaire Puzzle",
+      "dates": [
+        "2026-08-26"
+      ],
+      "first_seen": "2026-08-26"
+    },
+    "gp:com.kiloo.subwaysurf": {
+      "name": "Subway Surfers",
+      "dates": [
+        "2026-08-26"
+      ],
+      "first_seen": "2026-08-26"
     }
   },
   "cooldown_days": 30
