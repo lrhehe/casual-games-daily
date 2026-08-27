@@ -244,8 +244,8 @@ def fetch_googleplay_top():
                         "link": f"https://play.google.com/store/apps/details?id={r.get('appId','')}",
                         "icon": r.get("icon", ""),
                         "category": r.get("genre", ""),
-                        "rating": r.get("score", 0),
-                        "ratingCount": r.get("ratings", 0),
+                        "rating": r.get("score") or 0,
+                        "ratingCount": r.get("ratings") or 0,
                         "countries": ["gp"],
                         "best_rank": 99,
                         "rank_sum": 0,
@@ -436,7 +436,7 @@ def score_game(game, today_str):
         score += 1
     
     # 6. 评分加分
-    rating = game.get("rating", 0)
+    rating = game.get("rating") or 0
     if rating >= 4.5:
         score += 2
     elif rating >= 4.0:
@@ -488,8 +488,8 @@ def generate_game_card(game, idx):
     """生成单个游戏卡片 HTML"""
     name = game.get("name", "Unknown")
     artist = game.get("artist", "")
-    rating = game.get("rating", 0)
-    reviews = game.get("ratingCount", 0)
+    rating = game.get("rating") or 0
+    reviews = game.get("ratingCount") or 0
     daily = game.get("dailyReviews", 0)
     stars = rating_to_stars(rating)
     version = game.get("version", "")
