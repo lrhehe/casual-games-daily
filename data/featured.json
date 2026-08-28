@@ -726,6 +726,13 @@
         "2026-08-27"
       ],
       "first_seen": "2026-08-27"
+    },
+    "com.zroute.global.ios": {
+      "name": "Z 루트: 리뎀션",
+      "dates": [
+        "2026-08-28"
+      ],
+      "first_seen": "2026-08-28"
     }
   },
   "cooldown_days": 30
