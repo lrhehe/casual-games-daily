@@ -513,7 +513,8 @@
     "gp:com.imangi.templerun2": {
       "name": "Temple Run 2",
       "dates": [
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-30"
       ],
       "first_seen": "2026-07-31"
     },
@@ -740,6 +741,20 @@
         "2026-08-29"
       ],
       "first_seen": "2026-08-29"
+    },
+    "io.heseri.car": {
+      "name": "Car Evolve",
+      "dates": [
+        "2026-08-30"
+      ],
+      "first_seen": "2026-08-30"
+    },
+    "gp:com.funovus.alternatekeep": {
+      "name": "Grim Arcade: Treasure Raid",
+      "dates": [
+        "2026-08-30"
+      ],
+      "first_seen": "2026-08-30"
     }
   },
   "cooldown_days": 30
