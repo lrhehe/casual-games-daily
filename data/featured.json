@@ -405,7 +405,8 @@
     "com.red.brilliantsort.ios": {
       "name": "Jewel Coloring",
       "dates": [
-        "2026-07-22"
+        "2026-07-22",
+        "2026-09-01"
       ],
       "first_seen": "2026-07-22"
     },
@@ -756,6 +757,20 @@
         "2026-08-30"
       ],
       "first_seen": "2026-08-30"
+    },
+    "gp:com.water.loop.puzzle": {
+      "name": "Water Loop Puzzle",
+      "dates": [
+        "2026-09-01"
+      ],
+      "first_seen": "2026-09-01"
+    },
+    "gp:com.youmusic.magictiles": {
+      "name": "Magic Tiles 3™ - Piano Game",
+      "dates": [
+        "2026-09-01"
+      ],
+      "first_seen": "2026-09-01"
     }
   },
   "cooldown_days": 30
