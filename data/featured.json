@@ -771,6 +771,27 @@
         "2026-09-01"
       ],
       "first_seen": "2026-09-01"
+    },
+    "com.iyagames.flotshelter.global": {
+      "name": "波乱水世界",
+      "dates": [
+        "2026-09-02"
+      ],
+      "first_seen": "2026-09-02"
+    },
+    "gp:com.abi.colony.flow": {
+      "name": "Colony Flow!",
+      "dates": [
+        "2026-09-02"
+      ],
+      "first_seen": "2026-09-02"
+    },
+    "gp:com.fingersoft.hcr2": {
+      "name": "Hill Climb Racing 2",
+      "dates": [
+        "2026-09-02"
+      ],
+      "first_seen": "2026-09-02"
     }
   },
   "cooldown_days": 30
