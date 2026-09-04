@@ -793,6 +793,13 @@
         "2026-09-02"
       ],
       "first_seen": "2026-09-02"
+    },
+    "com.nebula.mahjongtile.ios": {
+      "name": "Mahjong Blast",
+      "dates": [
+        "2026-09-04"
+      ],
+      "first_seen": "2026-09-04"
     }
   },
   "cooldown_days": 30
