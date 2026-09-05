@@ -566,14 +566,16 @@
     "gp:com.easybrain.arrow.puzzle.game": {
       "name": "Arrow Puzzle: Tap Puzzle Games",
       "dates": [
-        "2026-08-06"
+        "2026-08-06",
+        "2026-09-05"
       ],
       "first_seen": "2026-08-06"
     },
     "gp:com.cyphergames.royalsmash": {
       "name": "Royal Smash! - Physics Puzzle",
       "dates": [
-        "2026-08-06"
+        "2026-08-06",
+        "2026-09-05"
       ],
       "first_seen": "2026-08-06"
     },
@@ -800,6 +802,13 @@
         "2026-09-04"
       ],
       "first_seen": "2026-09-04"
+    },
+    "com.springgames.archercastle": {
+      "name": "아처캐슬 키우기 : 방치형 RPG",
+      "dates": [
+        "2026-09-05"
+      ],
+      "first_seen": "2026-09-05"
     }
   },
   "cooldown_days": 30
