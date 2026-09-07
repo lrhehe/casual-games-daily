@@ -53,7 +53,8 @@
     "com.abi.colony.flow": {
       "name": "Colony Flow!",
       "dates": [
-        "2026-07-09"
+        "2026-07-09",
+        "2026-09-07"
       ],
       "first_seen": "2026-07-09"
     },
@@ -291,7 +292,8 @@
     "gp:com.rollerbush.games": {
       "name": "The Arcade · Game Hub Launcher",
       "dates": [
-        "2026-07-15"
+        "2026-07-15",
+        "2026-09-07"
       ],
       "first_seen": "2026-07-15"
     },
@@ -812,6 +814,13 @@
         "2026-09-05"
       ],
       "first_seen": "2026-09-05"
+    },
+    "gp:math.puzzle.games.crossmath.number.puzzles.free": {
+      "name": "Crossmath® - Math Puzzle Games",
+      "dates": [
+        "2026-09-07"
+      ],
+      "first_seen": "2026-09-07"
     }
   },
   "cooldown_days": 30
