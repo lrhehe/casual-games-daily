@@ -71,7 +71,8 @@
       "name": "Jigsaw Puzzles - Puzzle Games",
       "dates": [
         "2026-07-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-09-09"
       ],
       "first_seen": "2026-07-09"
     },
@@ -127,7 +128,8 @@
       "name": "Smash Fest!",
       "dates": [
         "2026-07-10",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-09-09"
       ],
       "first_seen": "2026-07-10"
     },
@@ -830,6 +832,13 @@
         "2026-09-08"
       ],
       "first_seen": "2026-09-08"
+    },
+    "gp:linkdesks.tile.match.story": {
+      "name": "Tile Story: Match Puzzle Game",
+      "dates": [
+        "2026-09-09"
+      ],
+      "first_seen": "2026-09-09"
     }
   },
   "cooldown_days": 30
