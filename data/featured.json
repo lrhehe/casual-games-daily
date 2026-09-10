@@ -839,6 +839,13 @@
         "2026-09-09"
       ],
       "first_seen": "2026-09-09"
+    },
+    "com.studiosirenia.minimuse": {
+      "name": "MiniMuses",
+      "dates": [
+        "2026-09-10"
+      ],
+      "first_seen": "2026-09-10"
     }
   },
   "cooldown_days": 30
