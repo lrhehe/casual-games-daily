@@ -137,7 +137,8 @@
       "name": "Galaxiga: Galaxy Arcade Game",
       "dates": [
         "2026-07-10",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-09-11"
       ],
       "first_seen": "2026-07-10"
     },
@@ -245,7 +246,8 @@
       "name": "Block Blast！",
       "dates": [
         "2026-07-13",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-09-11"
       ],
       "first_seen": "2026-07-13"
     },
@@ -846,6 +848,13 @@
         "2026-09-10"
       ],
       "first_seen": "2026-09-10"
+    },
+    "gp:jigsaw.puzzle.free.games": {
+      "name": "Jigsaw Puzzles HD Puzzle Games",
+      "dates": [
+        "2026-09-11"
+      ],
+      "first_seen": "2026-09-11"
     }
   },
   "cooldown_days": 30
