@@ -196,7 +196,8 @@
       "name": "RETROXEL: Retro Arcade Games",
       "dates": [
         "2026-07-12",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-09-14"
       ],
       "first_seen": "2026-07-12"
     },
@@ -873,6 +874,20 @@
         "2026-09-13"
       ],
       "first_seen": "2026-09-13"
+    },
+    "com.oakever.arrows": {
+      "name": "Amaze GO!",
+      "dates": [
+        "2026-09-14"
+      ],
+      "first_seen": "2026-09-14"
+    },
+    "jp.sammynet.next.orti0233": {
+      "name": "[777Real]緑ドン VIVA！情熱南米編",
+      "dates": [
+        "2026-09-14"
+      ],
+      "first_seen": "2026-09-14"
     }
   },
   "cooldown_days": 30
