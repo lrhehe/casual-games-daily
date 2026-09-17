@@ -892,6 +892,27 @@
         "2026-09-14"
       ],
       "first_seen": "2026-09-14"
+    },
+    "com.mintrocket.drmobile": {
+      "name": "DAVE THE DIVER",
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17"
+    },
+    "gp:com.wood.bolt.wordle.screw.nuts.puzzle": {
+      "name": "Woodle Screw® Pin Nuts & Bolts",
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17"
+    },
+    "gp:com.loop.clear.cube.free.card.puzzle.sort.match": {
+      "name": "Loop Master™: Color Jam Sort",
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17"
     }
   },
   "cooldown_days": 30
