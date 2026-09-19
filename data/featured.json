@@ -914,6 +914,13 @@
         "2026-09-17"
       ],
       "first_seen": "2026-09-17"
+    },
+    "com.bilibili.lumi": {
+      "name": "Lumi Master（るぅみマスター）",
+      "dates": [
+        "2026-09-19"
+      ],
+      "first_seen": "2026-09-19"
     }
   },
   "cooldown_days": 30
