@@ -930,6 +930,13 @@
         "2026-09-20"
       ],
       "first_seen": "2026-09-20"
+    },
+    "com.brain.crazy.joygame.ios": {
+      "name": "Brain Puzzle 3: Crazy Mind",
+      "dates": [
+        "2026-09-21"
+      ],
+      "first_seen": "2026-09-21"
     }
   },
   "cooldown_days": 30
