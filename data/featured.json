@@ -380,7 +380,8 @@
     "com.vigafun.funfinity.foodhunt": {
       "name": "Food Hunt: Pixel Puzzle",
       "dates": [
-        "2026-07-19"
+        "2026-07-19",
+        "2026-09-22"
       ],
       "first_seen": "2026-07-19"
     },
@@ -703,7 +704,8 @@
     "gp:com.fungames.blockcraft": {
       "name": "Block Craft 3D：Building Game",
       "dates": [
-        "2026-08-23"
+        "2026-08-23",
+        "2026-09-22"
       ],
       "first_seen": "2026-08-23"
     },
@@ -937,6 +939,13 @@
         "2026-09-21"
       ],
       "first_seen": "2026-09-21"
+    },
+    "gp:com.firsttouchgames.dls7": {
+      "name": "Dream League Soccer 2026",
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22"
     }
   },
   "cooldown_days": 30
