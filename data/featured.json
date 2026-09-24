@@ -292,7 +292,8 @@
       "name": "Roblox",
       "dates": [
         "2026-07-15",
-        "2026-08-22"
+        "2026-08-22",
+        "2026-09-24"
       ],
       "first_seen": "2026-07-15"
     },
@@ -668,7 +669,8 @@
     "gp:com.easybrain.block.puzzle.games": {
       "name": "Blockudoku®: Block Puzzle Game",
       "dates": [
-        "2026-08-21"
+        "2026-08-21",
+        "2026-09-24"
       ],
       "first_seen": "2026-08-21"
     },
@@ -953,6 +955,13 @@
         "2026-09-23"
       ],
       "first_seen": "2026-09-23"
+    },
+    "gp:com.ecffri.arrows": {
+      "name": "Arrows – Puzzle Escape",
+      "dates": [
+        "2026-09-24"
+      ],
+      "first_seen": "2026-09-24"
     }
   },
   "cooldown_days": 30
