@@ -487,7 +487,8 @@
       "name": "Tile Club - Match Puzzle Games",
       "dates": [
         "2026-07-27",
-        "2026-08-26"
+        "2026-08-26",
+        "2026-09-25"
       ],
       "first_seen": "2026-07-27"
     },
@@ -749,7 +750,8 @@
     "gp:com.kiloo.subwaysurf": {
       "name": "Subway Surfers",
       "dates": [
-        "2026-08-26"
+        "2026-08-26",
+        "2026-09-25"
       ],
       "first_seen": "2026-08-26"
     },
@@ -962,6 +964,13 @@
         "2026-09-24"
       ],
       "first_seen": "2026-09-24"
+    },
+    "com.gameloft.despicableme2": {
+      "name": "Minion Rush: Running game",
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25"
     }
   },
   "cooldown_days": 30
