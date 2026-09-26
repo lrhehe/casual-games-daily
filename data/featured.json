@@ -107,7 +107,8 @@
       "name": "Gossip Harbor®: Merge & Story",
       "dates": [
         "2026-07-10",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-09-26"
       ],
       "first_seen": "2026-07-10"
     },
@@ -450,7 +451,8 @@
       "name": "Hungry Shark Evolution",
       "dates": [
         "2026-07-24",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-09-26"
       ],
       "first_seen": "2026-07-24"
     },
@@ -971,6 +973,13 @@
         "2026-09-25"
       ],
       "first_seen": "2026-09-25"
+    },
+    "gp:com.matteljv.uno": {
+      "name": "UNO!™",
+      "dates": [
+        "2026-09-26"
+      ],
+      "first_seen": "2026-09-26"
     }
   },
   "cooldown_days": 30
