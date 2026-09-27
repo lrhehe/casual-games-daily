@@ -39,7 +39,8 @@
       "name": "Fishdom",
       "dates": [
         "2026-07-08",
-        "2026-08-08"
+        "2026-08-08",
+        "2026-09-27"
       ],
       "first_seen": "2026-07-08"
     },
@@ -980,6 +981,20 @@
         "2026-09-26"
       ],
       "first_seen": "2026-09-26"
+    },
+    "com.nebula.rotaterings.ios": {
+      "name": "Rotate Rings",
+      "dates": [
+        "2026-09-27"
+      ],
+      "first_seen": "2026-09-27"
+    },
+    "gp:com.playrix.homescapes": {
+      "name": "Homescapes",
+      "dates": [
+        "2026-09-27"
+      ],
+      "first_seen": "2026-09-27"
     }
   },
   "cooldown_days": 30
