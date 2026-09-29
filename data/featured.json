@@ -542,7 +542,8 @@
       "name": "Temple Run 2",
       "dates": [
         "2026-07-31",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-09-29"
       ],
       "first_seen": "2026-07-31"
     },
@@ -996,6 +997,13 @@
         "2026-09-27"
       ],
       "first_seen": "2026-09-27"
+    },
+    "ios.gridplus.busjam.carpuzzle": {
+      "name": "Bus Fever Party!",
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29"
     }
   },
   "cooldown_days": 30
