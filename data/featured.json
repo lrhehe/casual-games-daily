@@ -1018,6 +1018,13 @@
         "2026-10-01"
       ],
       "first_seen": "2026-10-01"
+    },
+    "com.tripledot.blockbash": {
+      "name": "Woodoku Blast: Block Puzzle",
+      "dates": [
+        "2026-10-02"
+      ],
+      "first_seen": "2026-10-02"
     }
   },
   "cooldown_days": 30
