@@ -595,7 +595,8 @@
       "name": "Arrow Puzzle: Tap Puzzle Games",
       "dates": [
         "2026-08-06",
-        "2026-09-05"
+        "2026-09-05",
+        "2026-10-05"
       ],
       "first_seen": "2026-08-06"
     },
@@ -813,7 +814,8 @@
     "com.iyagames.flotshelter.global": {
       "name": "波乱水世界",
       "dates": [
-        "2026-09-02"
+        "2026-09-02",
+        "2026-10-05"
       ],
       "first_seen": "2026-09-02"
     },
@@ -1033,6 +1035,13 @@
         "2026-10-03"
       ],
       "first_seen": "2026-10-03"
+    },
+    "gp:com.meow.sort.puzzle.pet.arrange.color.android": {
+      "name": "Meow Sort-Color Puzzle Master",
+      "dates": [
+        "2026-10-05"
+      ],
+      "first_seen": "2026-10-05"
     }
   },
   "cooldown_days": 30
