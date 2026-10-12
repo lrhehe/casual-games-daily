@@ -288,7 +288,8 @@
       "dates": [
         "2026-07-14",
         "2026-08-13",
-        "2026-09-12"
+        "2026-09-12",
+        "2026-10-12"
       ],
       "first_seen": "2026-07-14"
     },
@@ -1077,6 +1078,20 @@
         "2026-10-10"
       ],
       "first_seen": "2026-10-10"
+    },
+    "gp:com.tilematch.cat": {
+      "name": "Tile Manor",
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12"
+    },
+    "gp:com.flow.smashparty": {
+      "name": "Smash Land!",
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12"
     }
   },
   "cooldown_days": 30
