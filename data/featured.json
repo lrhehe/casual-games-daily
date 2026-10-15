@@ -1096,6 +1096,20 @@
         "2026-10-12"
       ],
       "first_seen": "2026-10-12"
+    },
+    "com.superplaystudios.disneysolitairedreams": {
+      "name": "Disney Solitaire",
+      "dates": [
+        "2026-10-15"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    "gp:com.socialfirst.nexus": {
+      "name": "Nexus Station",
+      "dates": [
+        "2026-10-15"
+      ],
+      "first_seen": "2026-10-15"
     }
   },
   "cooldown_days": 30
