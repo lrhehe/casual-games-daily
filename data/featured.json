@@ -947,7 +947,8 @@
     "gp:com.loop.clear.cube.free.card.puzzle.sort.match": {
       "name": "Loop Master™: Color Jam Sort",
       "dates": [
-        "2026-09-17"
+        "2026-09-17",
+        "2026-10-17"
       ],
       "first_seen": "2026-09-17"
     },
@@ -1111,6 +1112,20 @@
         "2026-10-15"
       ],
       "first_seen": "2026-10-15"
+    },
+    "com.little.fish.swim": {
+      "name": "Fish Sort Puzzle:Bubble Triple",
+      "dates": [
+        "2026-10-17"
+      ],
+      "first_seen": "2026-10-17"
+    },
+    "gp:com.losttemplegames.duckysort": {
+      "name": "Quack Sort: Loop Puzzle",
+      "dates": [
+        "2026-10-17"
+      ],
+      "first_seen": "2026-10-17"
     }
   },
   "cooldown_days": 30
