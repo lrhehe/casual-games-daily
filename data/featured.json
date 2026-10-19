@@ -847,7 +847,8 @@
     "gp:com.fingersoft.hcr2": {
       "name": "Hill Climb Racing 2",
       "dates": [
-        "2026-09-02"
+        "2026-09-02",
+        "2026-10-19"
       ],
       "first_seen": "2026-09-02"
     },
@@ -1127,6 +1128,20 @@
         "2026-10-17"
       ],
       "first_seen": "2026-10-17"
+    },
+    "com.uncosoft.wordpuzzle": {
+      "name": "Sand Blocks: Drop Puzzle",
+      "dates": [
+        "2026-10-19"
+      ],
+      "first_seen": "2026-10-19"
+    },
+    "gp:com.project.idle.cd": {
+      "name": "Top Force",
+      "dates": [
+        "2026-10-19"
+      ],
+      "first_seen": "2026-10-19"
     }
   },
   "cooldown_days": 30
