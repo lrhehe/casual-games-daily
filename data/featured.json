@@ -1142,6 +1142,13 @@
         "2026-10-19"
       ],
       "first_seen": "2026-10-19"
+    },
+    "com.chess.iphone": {
+      "name": "Chess.com - Play and Learn",
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20"
     }
   },
   "cooldown_days": 30
