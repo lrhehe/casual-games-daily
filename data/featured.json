@@ -738,7 +738,8 @@
     "gp:com.inspiredsquare.jupiter": {
       "name": "2248 - Numbers Game 2048",
       "dates": [
-        "2026-08-24"
+        "2026-08-24",
+        "2026-10-21"
       ],
       "first_seen": "2026-08-24"
     },
@@ -971,7 +972,8 @@
     "com.brain.crazy.joygame.ios": {
       "name": "Brain Puzzle 3: Crazy Mind",
       "dates": [
-        "2026-09-21"
+        "2026-09-21",
+        "2026-10-21"
       ],
       "first_seen": "2026-09-21"
     },
@@ -1149,6 +1151,13 @@
         "2026-10-20"
       ],
       "first_seen": "2026-10-20"
+    },
+    "gp:com.miniclip.carrom": {
+      "name": "Carrom Pool: Disc Game",
+      "dates": [
+        "2026-10-21"
+      ],
+      "first_seen": "2026-10-21"
     }
   },
   "cooldown_days": 30
