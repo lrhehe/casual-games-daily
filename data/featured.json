@@ -731,7 +731,8 @@
       "name": "Block Craft 3D：Building Game",
       "dates": [
         "2026-08-23",
-        "2026-09-22"
+        "2026-09-22",
+        "2026-10-22"
       ],
       "first_seen": "2026-08-23"
     },
@@ -1158,6 +1159,20 @@
         "2026-10-21"
       ],
       "first_seen": "2026-10-21"
+    },
+    "com.agavegames.wordtiles": {
+      "name": "Word Tiles - Relaxing Puzzle",
+      "dates": [
+        "2026-10-22"
+      ],
+      "first_seen": "2026-10-22"
+    },
+    "gp:com.game.arcane.ball": {
+      "name": "Arcane Ball",
+      "dates": [
+        "2026-10-22"
+      ],
+      "first_seen": "2026-10-22"
     }
   },
   "cooldown_days": 30
