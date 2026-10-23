@@ -747,7 +747,8 @@
     "gp:com.easybrain.art.puzzle": {
       "name": "Art Puzzle - Puzzle Games",
       "dates": [
-        "2026-08-24"
+        "2026-08-24",
+        "2026-10-23"
       ],
       "first_seen": "2026-08-24"
     },
@@ -1173,6 +1174,20 @@
         "2026-10-22"
       ],
       "first_seen": "2026-10-22"
+    },
+    "com.playrix.gardenscapes-m3-ios": {
+      "name": "Gardenscapes",
+      "dates": [
+        "2026-10-23"
+      ],
+      "first_seen": "2026-10-23"
+    },
+    "gp:com.ludo.king": {
+      "name": "Ludo King®",
+      "dates": [
+        "2026-10-23"
+      ],
+      "first_seen": "2026-10-23"
     }
   },
   "cooldown_days": 30
