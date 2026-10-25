@@ -780,7 +780,8 @@
       "name": "Subway Surfers",
       "dates": [
         "2026-08-26",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-10-25"
       ],
       "first_seen": "2026-08-26"
     },
@@ -1191,6 +1192,20 @@
         "2026-10-23"
       ],
       "first_seen": "2026-10-23"
+    },
+    "com.mrtgd2.jp.ios": {
+      "name": "ダックサバイバー",
+      "dates": [
+        "2026-10-25"
+      ],
+      "first_seen": "2026-10-25"
+    },
+    "gp:com.cookingo.perfect.meal": {
+      "name": "Cookingo: Perfect Meal",
+      "dates": [
+        "2026-10-25"
+      ],
+      "first_seen": "2026-10-25"
     }
   },
   "cooldown_days": 30
