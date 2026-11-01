@@ -240,7 +240,8 @@
       "name": "Arcade Games",
       "dates": [
         "2026-07-13",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-11-01"
       ],
       "first_seen": "2026-07-13"
     },
@@ -1044,7 +1045,8 @@
     "ios.gridplus.busjam.carpuzzle": {
       "name": "Bus Fever Party!",
       "dates": [
-        "2026-09-29"
+        "2026-09-29",
+        "2026-11-01"
       ],
       "first_seen": "2026-09-29"
     },
