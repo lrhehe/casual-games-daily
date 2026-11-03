@@ -1253,6 +1253,13 @@
         "2026-10-31"
       ],
       "first_seen": "2026-10-31"
+    },
+    "com.farlightgames.warline.ios.global": {
+      "name": "Warline: スナイパー・ストライク",
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03"
     }
   },
   "cooldown_days": 30
