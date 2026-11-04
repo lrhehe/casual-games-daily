@@ -620,7 +620,8 @@
       "dates": [
         "2026-08-06",
         "2026-09-05",
-        "2026-10-05"
+        "2026-10-05",
+        "2026-11-04"
       ],
       "first_seen": "2026-08-06"
     },
@@ -1260,6 +1261,20 @@
         "2026-11-03"
       ],
       "first_seen": "2026-11-03"
+    },
+    "com.loop.packedloop": {
+      "name": "Parking Loop",
+      "dates": [
+        "2026-11-04"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    "gp:com.vitastudio.mahjong": {
+      "name": "Vita Mahjong",
+      "dates": [
+        "2026-11-04"
+      ],
+      "first_seen": "2026-11-04"
     }
   },
   "cooldown_days": 30
