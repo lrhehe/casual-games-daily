@@ -428,7 +428,8 @@
       "name": "Tasty Travels: Merge Game",
       "dates": [
         "2026-07-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-11-06"
       ],
       "first_seen": "2026-07-20"
     },
@@ -1098,7 +1099,8 @@
     "gp:com.megaretrohub.app.play": {
       "name": "MegaRetro Hub: Juegos Retro",
       "dates": [
-        "2026-10-07"
+        "2026-10-07",
+        "2026-11-06"
       ],
       "first_seen": "2026-10-07"
     },
@@ -1283,6 +1285,13 @@
         "2026-11-05"
       ],
       "first_seen": "2026-11-05"
+    },
+    "gp:com.lavaflame.fortunemill": {
+      "name": "Fortune Mill",
+      "dates": [
+        "2026-11-06"
+      ],
+      "first_seen": "2026-11-06"
     }
   },
   "cooldown_days": 30
