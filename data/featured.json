@@ -130,7 +130,8 @@
       "dates": [
         "2026-07-10",
         "2026-08-10",
-        "2026-09-13"
+        "2026-09-13",
+        "2026-11-12"
       ],
       "first_seen": "2026-07-10"
     },
@@ -894,7 +895,8 @@
       "name": "Crossmath® - Math Puzzle Games",
       "dates": [
         "2026-09-07",
-        "2026-10-08"
+        "2026-10-08",
+        "2026-11-12"
       ],
       "first_seen": "2026-09-07"
     },
@@ -1327,6 +1329,13 @@
         "2026-11-10"
       ],
       "first_seen": "2026-11-10"
+    },
+    "com.wanda.transformers.ios.am": {
+      "name": "Transformers: Eternal War",
+      "dates": [
+        "2026-11-12"
+      ],
+      "first_seen": "2026-11-12"
     }
   },
   "cooldown_days": 30
