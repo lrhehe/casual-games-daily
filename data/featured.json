@@ -1336,6 +1336,20 @@
         "2026-11-12"
       ],
       "first_seen": "2026-11-12"
+    },
+    "com.azragames.ungodly": {
+      "name": "UnGodly アンゴッドリー",
+      "dates": [
+        "2026-11-13"
+      ],
+      "first_seen": "2026-11-13"
+    },
+    "gp:com.dgnstudio.orbitdefense": {
+      "name": "Orbit Defense",
+      "dates": [
+        "2026-11-13"
+      ],
+      "first_seen": "2026-11-13"
     }
   },
   "cooldown_days": 30
