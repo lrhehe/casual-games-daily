@@ -1141,7 +1141,8 @@
     "com.superplaystudios.disneysolitairedreams": {
       "name": "Disney Solitaire",
       "dates": [
-        "2026-10-15"
+        "2026-10-15",
+        "2026-11-16"
       ],
       "first_seen": "2026-10-15"
     },
@@ -1368,6 +1369,13 @@
         "2026-11-15"
       ],
       "first_seen": "2026-11-15"
+    },
+    "gp:com.pegstorm.game": {
+      "name": "Pegstorm: Ball Drop Arcade",
+      "dates": [
+        "2026-11-16"
+      ],
+      "first_seen": "2026-11-16"
     }
   },
   "cooldown_days": 30
