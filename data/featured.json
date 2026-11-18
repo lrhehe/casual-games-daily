@@ -1377,6 +1377,13 @@
         "2026-11-16"
       ],
       "first_seen": "2026-11-16"
+    },
+    "com.oakever.sortparade": {
+      "name": "Sort Streak: Color Puzzle",
+      "dates": [
+        "2026-11-18"
+      ],
+      "first_seen": "2026-11-18"
     }
   },
   "cooldown_days": 30
