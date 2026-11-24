@@ -808,7 +808,8 @@
       "dates": [
         "2026-08-26",
         "2026-09-25",
-        "2026-10-25"
+        "2026-10-25",
+        "2026-11-24"
       ],
       "first_seen": "2026-08-26"
     },
@@ -1400,6 +1401,20 @@
         "2026-11-20"
       ],
       "first_seen": "2026-11-20"
+    },
+    "com.CircleGames.TidyRoom": {
+      "name": "Tidy Room!",
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24"
+    },
+    "gp:com.biglime.cookingmadness": {
+      "name": "Cooking Madness: A Chef's Game",
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24"
     }
   },
   "cooldown_days": 30
