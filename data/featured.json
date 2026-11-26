@@ -1050,7 +1050,8 @@
       "name": "UNO!™",
       "dates": [
         "2026-09-26",
-        "2026-10-26"
+        "2026-10-26",
+        "2026-11-26"
       ],
       "first_seen": "2026-09-26"
     },
@@ -1424,6 +1425,20 @@
         "2026-11-25"
       ],
       "first_seen": "2026-11-25"
+    },
+    "com.sled.surfers.game": {
+      "name": "Sled Surfers",
+      "dates": [
+        "2026-11-26"
+      ],
+      "first_seen": "2026-11-26"
+    },
+    "gp:com.yalla.yallagames": {
+      "name": "Yalla Ludo - Ludo&Jackaroo",
+      "dates": [
+        "2026-11-26"
+      ],
+      "first_seen": "2026-11-26"
     }
   },
   "cooldown_days": 30
